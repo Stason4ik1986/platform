@@ -5,10 +5,11 @@
     <meta charset="utf-8" />
     <title>Platform</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="_reset.css">
-    <link rel="stylesheet" href="additional_page.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap&subset=latin-ext"
         rel="stylesheet">
+    <link rel="stylesheet" href="../libs/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="../styles/_reset.css">
+    <link rel="stylesheet" href="../styles/additional_page.css">
     <!-- <link rel="icon" type="image/x-icon" href="favicon.ico" /> -->
 </head>
 
@@ -36,8 +37,29 @@
                     <div class="schedule__iteme__date">04.11.2019 - 08.11.2019</div>
                 </div>
                 <div class="schedule__item__price">12 000 грн.</div>
-                <a href="" class="schedule__item__action">Записаться</a>
+                <a href="#register-modal" class="schedule__item__action popup-modal">Записаться</a>
                 <!-- <a href="" class="schedule__item__action">Сообщить о <br> дате старта</a> -->
+                <div id="register-modal" class="mfp-hide white-popup-block register-modal">
+                    <form class="register-modal__form" enctype="multipart/form-data" method="post" action="php/mail.php"
+                        id="contactform">
+                        <h4 class="register-modal__form-title">Регистрация</h4>
+                        <p class="register-modal__form-description">
+                            Международная торговля. Экспорт Харьков, дата старта 04.11.2019
+                        </p>
+                        <p class="register-modal__form-input">
+                            <input id="name" name="name" class="short" placeholder="Имя" />
+                        </p>
+                        <p class="register-modal__form-input">
+                            <input id="surname" name="surname" class="short" placeholder="Фамилия" />
+                        </p>
+                        <p class="register-modal__form-input">
+                            <input id="email" name="email" class="short" placeholder="Email" />
+                        </p>
+                        <p class="register-modal__form-button">
+                            <button type="submit" class="" name="send">Отправить</button>
+                        </p>
+                    </form>
+                </div>
             </div>
             <div class="schedule__item">
                 <div class="schedule__item__place-date">
@@ -59,6 +81,10 @@
             </form>
         </div>
     </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../libs/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../libs/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="../scripts/main.js"></script>
 </body>
 
 </html>

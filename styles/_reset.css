@@ -4,18 +4,19 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border: 0;
 }
 
 body {
     font-family: Roboto, sans-serif;
     color: black;
-    font-size: 24px;
-    line-height: 40px;
+    /* font-size: 24px;
+        line-height: 40px; */
+    font-size: calc((100vw - 480px)/(1440 - 480) * (24 - 22) + 22px);
+    line-height: calc((100vw - 480px)/(1440 - 480) * (40 - 30) + 30px);
     font-weight: 300;
-    width: 100vw;
     max-width: 1440px;
-    height: 100vh;
-    margin: 0 auto;
+	margin: 0 auto;
     background: #ffffff;
 }
 
@@ -23,19 +24,29 @@ li {
     list-style-type: none;
 }
 
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+input {
+    outline: none;
+    border: none; 
+}
+
+a:visited, a:focus {
+	outline: 0;
+}
+
 a {
     text-decoration: none;
     color: black;
 }
 
-button {
-    outline: none;
-    border: none;
-}
-
 img {
-    width: 100%;
     height: auto;
+    width: 100%;
 }
 
 h4 {

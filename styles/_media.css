@@ -1,0 +1,170 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1140px) {
+	.section-privelegie__content-item { 
+		width: 50%;
+	}
+
+	.platform-footer-form {
+		flex-direction: column;
+		align-items: center;
+		padding: 20px 0 40px;
+	}
+
+	.platform-footer-form__subscribe-text {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.platform-footer-form__subscribe-form {
+		margin: 0;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.section-programms__content-item {
+		flex-direction: column;
+	}
+
+	.section-programms__content-item-text {
+		padding: 0 10px;
+		text-align: center;
+	}
+
+	.section-programms__content-item-link {
+		margin: 20px 0;
+	}
+
+	.section-projects__contacts-card h3 {
+		line-height: 50px;
+	}
+
+	.section-projects__contacts-card span {
+		line-height: 40px;
+	}
+
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.center {
+		flex-direction: column;
+	}
+
+	.create-for-list__item {
+		margin: 10px 0;
+		width: 100%;
+		height: auto;
+	}
+
+	.section-privelegie__content,
+	.section-review__reviewers-list {
+		height: 100%;
+		flex-direction: column;
+	}
+
+	.section-privelegie__content-item,
+	.reviewers-list__item {
+		width: 100%;
+	}
+
+	.section-projects__contacts-line {
+		display: none;
+	}
+
+	.section-projects__contacts-card {
+		width: 100%;
+	}
+
+	.reviewers-list__item {
+		margin-left: 0;
+	}
+
+	.reviewers-list-content {
+		height: auto;
+	}
+
+	.reviewers-list__item:first-child .reviewers-list-content {
+		background: url('../images/review_bg1.png') no-repeat 50% 50%;
+		background-size: contain;
+	}
+
+	.reviewers-list__item:nth-child(2) .reviewers-list-content {
+		background: url('../images/review_bg2.png') no-repeat 50% 50%;
+		background-size: contain;
+	}
+
+	.reviewers-list__item:nth-child(3) .reviewers-list-content {
+		background: url('../images/review_bg3.png') no-repeat 50% 50%;
+		background-size: contain;
+	}
+}
+
+@media only screen and (max-width : 600px) {
+	.platform-footer-info {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.platform-footer-info__social {
+		margin-bottom: 10px;
+	}
+
+	.platform-footer-info__text {
+		width: 100%;
+		align-items: center;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+}
+
+@media only screen and (max-width : 479px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 769px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 993px) {
+    .navigation__list {
+		display: flex;
+	}
+
+	.navigation__hidden-button {
+		display: none;
+	}
+
+	.navigation__list-hidden {
+		display: none !important;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

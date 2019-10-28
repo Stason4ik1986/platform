@@ -11,11 +11,13 @@
         rel="stylesheet">
     <link rel="stylesheet" href="libs/owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="libs/owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css">
     <link rel="stylesheet" href="styles/_reset.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/_media.css">
 </head>
 
-<body>
+<body class="fullwidth">
     <header class="platform-header">
         <div class="platform-header__content">
             <nav class="platform-header__navigation">
@@ -23,6 +25,23 @@
                     <img src="./images/logo.svg" alt="Платформа">
                 </a>
                 <ul class="navigation__list">
+                    <li class="navigation__list-item">
+                        <a class="navigation__list-item-link" href="">О нас</a>
+                    </li>
+                    <li class="navigation__list-item">
+                        <a class="navigation__list-item-link" href="">Программа</a>
+                    </li>
+                    <li class="navigation__list-item">
+                        <a class="navigation__list-item-link" href="">Отзывы</a>
+                    </li>
+                    <li class="navigation__list-item">
+                        <a class="navigation__list-item-link" href="">Контакты</a>
+                    </li>
+                </ul>
+
+                <a class="navigation__hidden-button" href="#">&#9776;</a>
+
+                <ul class="navigation__list-hidden">
                     <li class="navigation__list-item">
                         <a class="navigation__list-item-link" href="">О нас</a>
                     </li>
@@ -285,8 +304,8 @@
         </div>
     </section>
     <footer class="platform-footer">
-       <div class="platform-footer-info">
-            <div class="platform-footer-info__social center">
+    <div class="platform-footer-info">
+            <div class="platform-footer-info__social">
                 <a href="https://instagram.com/platforma_bs?igshid=1wb1vyu2gan5m" target="_blank"
                     class="platform-footer-info__social-icon platform-footer-info__social-inst"></a>
                 <a href="https://www.facebook.com/platformabs" target="_blank"
@@ -298,19 +317,20 @@
                 <span>+ 38 (067) 572 35 56</span>
                 <span>info@platforma-bs.com</span>
             </div>
-       </div>
-       <div class="platform-footer-form">
-           <div class="platform-footer-form__subscribe-text">Подпишитесь на рассылку - узнавайте новости первыми!</div>
-           <form  action="post" class="platform-footer-form__subscribe-form subscribe-form">
+    </div>
+    <div class="platform-footer-form">
+        <div class="platform-footer-form__subscribe-text">Подпишитесь на рассылку - узнавайте новости первыми!</div>
+        <form  action="post" class="platform-footer-form__subscribe-form subscribe-form">
                 <div class="subscribe-form__input">
-                       <input type="text" placeholder="Ваш email">
+                    <input type="text" placeholder="Ваш email">
                 </div>
                 <button type="submit" class="subscribe-form__button">Подписаться</button>
             </form>
-       </div>
+    </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="libs/owlcarousel/owl.carousel.min.js"></script>
+    <script src="libs/magnific-popup/magnific-popup.css"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
