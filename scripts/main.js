@@ -38,4 +38,12 @@ $(document).ready(function () {
             $.magnificPopup.close();
         });
     });
+
+    $('a').click(function () {
+        $('html, body').animate({
+            scrollTop: $($.attr(this, 'href')).offset().top
+        }, 500);
+        $('.navigation__list-hidden').slideToggle();
+        return false;
+    });
 });

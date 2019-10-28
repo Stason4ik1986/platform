@@ -46,10 +46,18 @@
 		line-height: 40px;
 	}
 
+	.create-for-list__item {
+		height: auto;
+	}
+
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	.center {
+		flex-direction: column;
+	}
+
+	.section-about__create-for-list {
 		flex-direction: column;
 	}
 
