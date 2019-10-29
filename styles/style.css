@@ -383,27 +383,27 @@
 }
 
 .ic-check:before {
-    background: url(../images/icons/ic-check.svg) no-repeat 50% 50%;
+    background: url(../images/platform_ic/ic-check.svg) no-repeat 50% 50%;
 }
 
 .ic-list:before {
-    background: url(../images/icons/ic-list.svg) no-repeat 50% 50%;
+    background: url(../images/platform_ic/ic-list.svg) no-repeat 50% 50%;
 }
 
 .ic-bag:before {
-    background: url(../images/icons/ic-bag.svg) no-repeat 50% 50%;
+    background: url(../images/platform_ic/ic-bag.svg) no-repeat 50% 50%;
 }
 
 .ic-book:before {
-    background: url(../images/icons/ic-book.svg) no-repeat 50% 50%;
+    background: url(../images/platform_ic/ic-book.svg) no-repeat 50% 50%;
 }
 
 .ic-chat:before {
-    background: url(../images/icons/ic-chat.svg) no-repeat 50% 50%;
+    background: url(../images/platform_ic/ic-chat.svg) no-repeat 50% 50%;
 }
 
 .ic-base:before {
-    background: url(../images/icons/ic-base.svg) no-repeat 50% 50%;
+    background: url(../images/platform_ic/ic-base.svg) no-repeat 50% 50%;
 }
 
 .section-prevelegie__apply a {
@@ -675,17 +675,17 @@
 }
 
 .platform-footer-info__social-inst {
-    background: url(../images/icons/ic-instagram-lg.svg) no-repeat 50% 50%;
+    background: url(../images/platform_ic/ic-instagram-lg.svg) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .platform-footer-info__social-fb {
-    background: url(../images/icons/ic-facebook-lg.svg) no-repeat 50% 50%;
+    background: url(../images/platform_ic/ic-facebook-lg.svg) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .platform-footer-info__social-ln {
-    background: url(../images/icons/ic-linkedin-lg.svg) no-repeat 50% 50%;
+    background: url(../images/platform_ic/ic-linkedin-lg.svg) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -717,7 +717,7 @@
     height: 61px; */
     width: calc((100vw - 480px)/(1440 - 480) * (73 - 50) + 50px);
     height: calc((100vw - 480px)/(1440 - 480) * (61 - 40) + 40px);
-    background: url(../images/icons/ic-mail-lg.svg) no-repeat 50% 50%;
+    background: url(../images/platform_ic/ic-mail-lg.svg) no-repeat 50% 50%;
     background-size: cover;
 }
 
