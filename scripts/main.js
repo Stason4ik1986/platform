@@ -13,7 +13,7 @@ $(document).ready(function () {
             },
             1000: {
                 items: 3,
-                margin: 20
+                margin: 52
             }
         }
     });
