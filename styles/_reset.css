@@ -54,3 +54,7 @@ h4 {
     line-height: 40px;
     font-weight: 900;
 }
+
+.hidden-x {
+    overflow: hidden;
+}

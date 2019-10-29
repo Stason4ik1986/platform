@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap&subset=latin-ext"
         rel="stylesheet">
+    <link rel="stylesheet" href="../libs/css3-animate-it/animations_for_use.css">
     <link rel="stylesheet" href="../libs/magnific-popup/magnific-popup.css">
     <link rel="stylesheet" href="../styles/_reset.css">
+    <link rel="stylesheet" href="../styles/register_modal.css">
     <link rel="stylesheet" href="../styles/additional_page.css">
     <!-- <link rel="icon" type="image/x-icon" href="favicon.ico" /> -->
 </head>
@@ -68,17 +70,20 @@
                 <a href="" class="schedule__item__action">Сообщить <br>о дате старта</a>
             </div>
         </div>
-        <div class="subscribe-form-wrap">
-            <div class="subscribe-form__text">Желаете получить более подробную программу курса? Мы вам напишем!</div>
-            <form action="post" class="subscribe-form">
-                <div class="subscribe-form__input">
-                    <input type="text" placeholder="Ваш email">
-                </div>
-                <button type="submit" class="subscribe-form__button">Отправить</button>
-            </form>
+        <div class="animatedParent">
+            <div class="animated bounceInUp subscribe-form-wrap">
+                <div class="subscribe-form__text">Желаете получить более подробную программу курса? Мы вам напишем!</div>
+                <form action="post" class="subscribe-form">
+                    <div class="subscribe-form__input">
+                        <input type="text" placeholder="Ваш email">
+                    </div>
+                    <button type="submit" class="subscribe-form__button">Отправить</button>
+                </form>
+            </div>
         </div>
     </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../libs/css3-animate-it/css3-animate-it.js"></script>
     <script src="../libs/owlcarousel/owl.carousel.min.js"></script>
     <script src="../libs/magnific-popup/jquery.magnific-popup.min.js"></script>
     <script src="../scripts/main.js"></script>

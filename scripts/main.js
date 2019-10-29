@@ -39,7 +39,7 @@ $(document).ready(function () {
         });
     });
 
-    $('a').click(function () {
+    $('a:not(.popup-modal)').click(function () {
         $('html, body').animate({
             scrollTop: $($.attr(this, 'href')).offset().top
         }, 500);
