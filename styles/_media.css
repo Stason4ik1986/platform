@@ -47,6 +47,17 @@
 		line-height: 40px;
 	}
 
+	
+	.section-about__create-for-list {
+		flex-direction: column;
+	}
+
+	.create-for-list__item {
+		margin: 10px 0;
+		width: 100%;
+		height: auto;
+	}
+
 	.create-for-list__item {
 		height: auto;
 	}
@@ -56,16 +67,6 @@
 @media only screen and (max-width : 768px) {
 	.center {
 		flex-direction: column;
-	}
-
-	.section-about__create-for-list {
-		flex-direction: column;
-	}
-
-	.create-for-list__item {
-		margin: 10px 0;
-		width: 100%;
-		height: auto;
 	}
 
 	.section-privelegie__content,

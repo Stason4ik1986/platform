@@ -7,10 +7,10 @@
     margin: auto;
     text-align: center;
     /* padding: 71px 28px 91px; */
-    padding-top: calc((100vw - 480px)/(1440 - 480) * (71 - 40) + 40px);
-    padding-right: calc((100vw - 480px)/(1440 - 480) * (28 - 15) + 15px);
-    padding-bottom: calc((100vw - 480px)/(1440 - 480) * (91 - 50) + 50px);
-    padding-right: calc((100vw - 480px)/(1440 - 480) * (28 - 15) + 15px);
+    padding-top: calc((100vw - 375px)/(1440 - 375) * (71 - 40) + 40px);
+    padding-right: calc((100vw - 375px)/(1440 - 375) * (28 - 15) + 15px);
+    padding-bottom: calc((100vw - 375px)/(1440 - 375) * (91 - 50) + 50px);
+    padding-right: calc((100vw - 375px)/(1440 - 375) * (28 - 15) + 15px);
 }
 
 .register-modal__form-title {
@@ -25,12 +25,12 @@
     line-height: 30px;
     margin-bottom: 24px;
     /* padding: 0 75px; */
-    padding: 0 calc((100vw - 480px)/(1440 - 480) * (75 - 15) + 15px);
+    padding: 0 calc((100vw - 375px)/(1440 - 375) * (75 - 15) + 15px);
 }
 
 .register-modal__form-input {
     /* margin-bottom: 30px; */
-    margin-bottom: calc((100vw - 480px)/(1440 - 480) * (30 - 15) + 15px)
+    margin-bottom: calc((100vw - 375px)/(1440 - 375) * (30 - 15) + 15px)
 }
 
 .register-modal__form-input input {
@@ -38,10 +38,10 @@
     height: 64px; 
     padding: 22px;
     font-size: 18px;*/
-    width: calc((100vw - 480px)/(1440 - 480) * (364 - 300) + 300px);
-    height: calc((100vw - 480px)/(1440 - 480) * (64 - 40) + 40px);
-    padding: calc((100vw - 480px)/(1440 - 480) * (22 - 10) + 10px);
-    font-size: calc((100vw - 480px)/(1440 - 480) * (18 - 14) + 14px);
+    width: calc((100vw - 375px)/(1440 - 375) * (364 - 300) + 300px);
+    height: calc((100vw - 375px)/(1440 - 375) * (64 - 40) + 40px);
+    padding: calc((100vw - 375px)/(1440 - 375) * (22 - 10) + 10px);
+    font-size: calc((100vw - 375px)/(1440 - 375) * (18 - 14) + 14px);
     border: 1px solid #000000;
     transition: all .5s ease-in-out;
 }
@@ -53,15 +53,15 @@
 
 .register-modal__form-button {
     /* padding-top: 25px; */
-    padding-top: calc((100vw - 480px)/(1440 - 480) * (25 - 10) + 10px);
+    padding-top: calc((100vw - 375px)/(1440 - 375) * (25 - 10) + 10px);
 }
 
 .register-modal__form-button button {
     background-color: #FEE610;
     /* font-size: 22px;
     padding: 14px 80px; */
-    padding: calc((100vw - 480px)/(1440 - 480) * (14 - 10) + 10px) calc((100vw - 480px)/(1440 - 480) * (80 - 30) + 30px);
-    font-size:calc((100vw - 480px)/(1440 - 480) * (22 - 18) + 18px);
+    padding: calc((100vw - 375px)/(1440 - 375) * (14 - 10) + 10px) calc((100vw - 375px)/(1440 - 375) * (80 - 30) + 30px);
+    font-size:calc((100vw - 375px)/(1440 - 375) * (22 - 18) + 18px);
     border: 1px solid transparent;
     transition: all .5s ease-in-out;
 }
