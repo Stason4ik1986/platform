@@ -318,7 +318,7 @@
     padding: 55px 30px 55px; */
     width: 33%;
     height: 394px;
-    min-width: 394px;
+    min-width: 350px;
     margin-left: calc((100vw - 768px)/(1440 - 768) * (46 - 20) + 20px);
     padding-top: calc((100vw - 375px)/(1440 - 375) * (55 - 20) + 20px);
     padding-bottom: calc((100vw - 375px)/(1440 - 375) * (55 - 20) + 20px);
