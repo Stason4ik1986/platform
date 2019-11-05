@@ -59,6 +59,7 @@
     line-height: 40px; */
     font-weight: 300;
     border: none;
+    max-width: 294px;
     font-size: calc((100vw - 375px)/(1440 - 375) * (24 - 16) + 16px);
     padding: calc((100vw - 375px)/(1440 - 375) * (20 - 5) + 5px) calc((100vw - 375px)/(1440 - 375) * (35 - 10) + 10px);
     line-height: calc((100vw - 375px)/(1440 - 375) * (40 - 30) + 30px);
@@ -81,8 +82,6 @@
 .platform-header {
     max-width: 1440px;
     position: relative;
-    /* background: url(images/background-s1.png) no-repeat 50% 50%;
-    background-size: cover; */
 }
 
 .platform-header__video {
@@ -103,33 +102,7 @@
     padding-bottom: calc((100vw - 375px)/(1440 - 375) * (140 - 50) + 50px);
     position: relative;
     height: 100%;
-    /* background-color: #FEE610; */
     z-index: 1;
-}
-
-.platform-header__content:before {
-    /* position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 45vh 55vw 0 0;
-    z-index: -1;
-    border-color: #ffffff transparent transparent transparent; */
-}
-
-.platform-header__content:after {
-    /* position: absolute;
-    content: '';
-    bottom: 0;
-    right: 0;
-    width: 0;
-    border-style: solid;
-    z-index: -1;
-    border-width: 0 0 718px 718px;
-    border-color: transparent transparent #ffffff transparent; */
 }
 
 .platform-header__navigation {
@@ -512,18 +485,44 @@
 .experts__list .owl-nav {
     position: absolute;
     width: 100%;
-    top: 50%;
+    top: 35%;
+    left: -20px;
+    margin-top: -20px;
 }
 
 .experts__list .owl-prev,
 .experts__list .owl-next {
     position: absolute;
-    width: 20px;
+}
+
+.experts__list .owl-prev:before,
+.experts__list .owl-next:after {
+    position: absolute;
+    content: '';
+    width: 40px;
     height: 40px;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    transform: rotate(135deg);
+    transition: border .5s ease-in-out;
+}
+
+.experts__list .owl-next:after {
+    transform: rotate(-45deg);
+}
+
+.experts__list .owl-prev:hover:before,
+.experts__list .owl-next:hover:after {
+    border-color: #FEE610;
 }
 
 .experts__list .owl-prev {
     left: -20px;
+}
+
+.experts__list .owl-prev span,
+.experts__list .owl-next span {
+    display: none;
 }
 
 .experts__list .owl-next {
