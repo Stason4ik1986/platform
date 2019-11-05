@@ -176,6 +176,16 @@
 }
 
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
+@media only screen and (min-width : 1440px) {
+	.subscribe-form__input input {
+		padding: 20px;
+		font-size: 24px;
+		line-height: 40px;
+	}
 
+	.subscribe-form__button {
+		font-size: 26px;
+		padding: 0 35px;
+		height: 80px;
+	}
 }
