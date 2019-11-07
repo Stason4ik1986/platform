@@ -6,7 +6,6 @@
     max-height: 704px;
     margin: auto;
     text-align: center;
-    /* padding: 71px 28px 91px; */
     padding-top: calc((100vw - 375px)/(1440 - 375) * (71 - 40) + 40px);
     padding-right: calc((100vw - 375px)/(1440 - 375) * (28 - 15) + 15px);
     padding-bottom: calc((100vw - 375px)/(1440 - 375) * (91 - 50) + 50px);
@@ -24,20 +23,14 @@
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 24px;
-    /* padding: 0 75px; */
     padding: 0 calc((100vw - 375px)/(1440 - 375) * (75 - 15) + 15px);
 }
 
 .register-modal__form-input {
-    /* margin-bottom: 30px; */
     margin-bottom: calc((100vw - 375px)/(1440 - 375) * (30 - 15) + 15px)
 }
 
 .register-modal__form-input input {
-    /* width: 364px;
-    height: 64px; 
-    padding: 22px;
-    font-size: 18px;*/
     width: calc((100vw - 375px)/(1440 - 375) * (364 - 300) + 300px);
     height: calc((100vw - 375px)/(1440 - 375) * (64 - 40) + 40px);
     padding: calc((100vw - 375px)/(1440 - 375) * (22 - 10) + 10px);
@@ -52,14 +45,11 @@
 }
 
 .register-modal__form-button {
-    /* padding-top: 25px; */
     padding-top: calc((100vw - 375px)/(1440 - 375) * (25 - 10) + 10px);
 }
 
 .register-modal__form-button button {
     background-color: #FEE610;
-    /* font-size: 22px;
-    padding: 14px 80px; */
     padding: calc((100vw - 375px)/(1440 - 375) * (14 - 10) + 10px) calc((100vw - 375px)/(1440 - 375) * (80 - 30) + 30px);
     font-size:calc((100vw - 375px)/(1440 - 375) * (22 - 18) + 18px);
     border: 1px solid transparent;
@@ -72,34 +62,67 @@
 }
 
 .mfp-fade.mfp-bg {
-  opacity: 0;
-
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+	opacity: 0;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
 }
+
 /* overlay animate in */
 .mfp-fade.mfp-bg.mfp-ready {
-  opacity: 0.8;
+	opacity: 0.8;
 }
+
 /* overlay animate out */
 .mfp-fade.mfp-bg.mfp-removing {
-  opacity: 0;
+	opacity: 0;
 }
 
 /* content at start */
 .mfp-fade.mfp-wrap .mfp-content {
-  opacity: 0;
-
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+	opacity: 0;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
 }
+
 /* content animate it */
 .mfp-fade.mfp-wrap.mfp-ready .mfp-content {
-  opacity: 1;
+	opacity: 1;
 }
+
 /* content animate out */
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
-  opacity: 0;
+	opacity: 0;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1440px) { 
+	.register-modal {
+		padding: 71px 28px 91px;
+	}
+
+	.register-modal__form-description {
+		padding: 0 75px;
+	}
+
+	.register-modal__form-input {
+		margin-bottom: 30px;
+	}
+
+	.register-modal__form-input input {
+		width: 364px;
+		height: 64px; 
+		padding: 22px;
+		font-size: 18px;
+	}
+
+	.register-modal__form-button {
+		padding-top: 25px;
+	}
+
+	.register-modal__form-button button {
+		font-size: 22px;
+		padding: 14px 80px;
+	}
 }

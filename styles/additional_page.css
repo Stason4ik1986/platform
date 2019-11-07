@@ -1,11 +1,9 @@
 /* Main styles */
 .section-page-wrap {
-    /* padding: 82px 0; */
     padding: calc((100vw - 375px)/(1440 - 375) * (150 - 30) + 30px) 0;
 }
 
 .section-content {
-    /* padding: 0 150px; */
     padding: 0 calc((100vw - 375px)/(1440 - 375) * (150 - 20) + 20px);
 }
 
@@ -28,9 +26,6 @@
 }
 
 .section-list li {
-    /* font-size: 24px;
-    font-weight: 300;
-    line-height: 60px; */
     display: flex;
     align-items: center;
     font-size: calc((100vw - 375px)/(1440 - 375) * (24 - 20) + 18px);
@@ -42,9 +37,6 @@
 }
 
 .section-list span {
-    /* line-height: 35px;
-    font-size: 32px;
-    margin-right: 20px; */
     font-weight: 500;
     white-space: nowrap;
     font-size: calc((100vw - 375px)/(1440 - 375) * (32 - 22) + 22px);
@@ -53,7 +45,6 @@
 }
 
 .subscribe-form-wrap {
-     /* padding: 0 150px; */
      padding: 0 calc((100vw - 375px)/(1440 - 375) * (150 - 20) + 20px);
      text-align: center;
 }
@@ -61,7 +52,6 @@
 .subscribe-form__text {
     color: #4E4E4E;
     margin-bottom: 22px;
-    /* padding: 0 250px; */
     padding: 0 calc((100vw - 375px)/(1440 - 375) * (250 - 20) + 20px);
 }
 
@@ -71,10 +61,6 @@
 }
 
 .subscribe-form__input input {
-    /* padding: 20px;
-    font-size: 24px;
-    line-height: 40px;
-    width: 350px; */
     font-size: calc((100vw - 375px)/(1440 - 375) * (24 - 18) + 18px);
     padding: calc((100vw - 375px)/(1440 - 375) * (20 - 10) + 10px) calc((100vw - 375px)/(1440 - 375) * (20 - 15) + 15px);
     line-height: calc((100vw - 375px)/(1440 - 375) * (40 - 30) + 30px);
@@ -86,14 +72,11 @@
 .subscribe-form__button {
     background-color: black;
     color: #ffffff;
-    /* font-size: 26px;
-    padding: 0 41px */
     font-size: calc((100vw - 375px)/(1440 - 375) * (26 - 20) + 20px);
     padding: 0 calc((100vw - 375px)/(1440 - 375) * (41 - 15) + 15px);
 }
 
 .schedule {
-    /* padding: 0 150px; */
     padding: 0 calc((100vw - 375px)/(1440 - 375) * (150 - 20) + 20px);
     background-color: #FEE610;
     margin-bottom: 60px;
@@ -122,13 +105,11 @@
 }
 
 .schedule__iteme__place {
-    /* font-size: 36px; */
     font-size: calc((100vw - 375px)/(1440 - 375) * (36 - 18) + 18px);
     font-weight: 500;
 }
 
 .schedule__item__price {
-    /* font-size: 36px; */
     font-size: calc((100vw - 375px)/(1440 - 375) * (36 - 18) + 18px);
 }
 
@@ -178,7 +159,6 @@
 @media only screen and (max-width : 479px) {
     .schedule__item {
         flex-direction: column;
-
     }
 
     .schedule__item__place-date,
@@ -223,6 +203,67 @@
 }
 
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
+@media only screen and (min-width : 1440px) {
+    .section-page-wrap {
+        padding: 150px 0;
+    }
+        
+    .section-content {
+        padding: 0 150px;
+    }
+
+    .section-list li {
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 60px;
+    }
+
+    .section-list span {
+        line-height: 35px;
+        font-size: 32px;
+        margin-right: 20px;
+    }
+
+    .subscribe-form-wrap {
+        padding: 0 150px;
+    }
+
+    .subscribe-form__text {
+        padding: 0 250px;
+    }
+
+    .subscribe-form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .subscribe-form__input input {
+        padding: 20px;
+        font-size: 24px;
+        line-height: 40px;
+        width: 350px;
+    }
+
+    .subscribe-form__button {
+        font-size: 26px;
+        padding: 0 41px
+    }
+
+    .schedule {
+        padding: 0 150px;
+    }
+
+    .schedule__item__place-date {
+        font-size: 24px;
+    }
+
+    .schedule__iteme__place,
+    .schedule__item__price {
+        font-size: 36px;
+    }
+
+    .schedule__item__action {
+        font-size: 32px;
+    }
 
 }
