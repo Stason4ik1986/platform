@@ -274,6 +274,8 @@
     background-color: #FEE610;
     padding-top: calc((100vw - 375px)/(1440 - 375) * (55 - 20) + 20px);
     padding-bottom: calc((100vw - 375px)/(1440 - 375) * (190 - 60) + 60px);
+    padding-left: calc((100vw - 375px)/(1440 - 375) * (150 - 20) + 20px);
+    padding-right: calc((100vw - 375px)/(1440 - 375) * (150 - 20) + 20px);
 }
 
 .section-privelegie__content {
@@ -351,6 +353,8 @@
 .section-programms {
     padding-top: calc((100vw - 375px)/(1440 - 375) * (55 - 20) + 20px);
     padding-bottom: calc((100vw - 375px)/(1440 - 375) * (190 - 20) + 20px);
+    padding-left: calc((100vw - 375px)/(1440 - 375) * (150 - 20) + 20px);
+    padding-right: calc((100vw - 375px)/(1440 - 375) * (150 - 20) + 20px);
 }
 
 .section-programms__content {
@@ -606,8 +610,8 @@
 
 .platform-footer-info {
     display: flex;
-    padding-top: calc((100vw - 375px)/(1440 - 375) * (100 - 20) + 20px);
-    padding-bottom: calc((100vw - 375px)/(1440 - 375) * (45 - 20) + 20px);
+    padding-top: calc((100vw - 375px)/(1440 - 375) * (50 - 20) + 20px);
+    padding-bottom: calc((100vw - 375px)/(1440 - 375) * (50 - 20) + 20px);
     border-bottom: 1px solid #000;
 }
 
@@ -649,7 +653,8 @@
 }
 
 .platform-footer-form {
-    padding: 76px 0 111px;
+    padding-top: calc((100vw - 375px)/(1440 - 375) * (50 - 20) + 20px);
+    padding-bottom: calc((100vw - 375px)/(1440 - 375) * (50 - 20) + 20px);
     display: flex;
 }
 
