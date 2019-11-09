@@ -1,4 +1,8 @@
 /* Main styles */
+.content {
+    height: 2000px;
+}
+
 .center {
     display: flex;
     justify-content: center;
@@ -61,6 +65,41 @@
     height: calc((100vw - 375px)/(1440 - 375) * (80 - 40) + 40px);
     cursor: pointer;
 }
+
+/* Back to top button */
+.back-to-top {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 9999;
+    height: calc((100vw - 375px)/(1440 - 375) * (50 - 35) + 35px);
+    width: calc((100vw - 375px)/(1440 - 375) * (50 - 35) + 35px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    color: #ffffff;
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+    opacity: 0;
+}
+
+.back-to-top span {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.back-to-top:hover {
+    background: #FEE610;
+}
+
+.back-to-top.show {
+    opacity: 1;
+}
+
 
 /* Navigation */
 .platform-header {

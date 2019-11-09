@@ -211,6 +211,11 @@
 		line-height: 40px;
 	}
 
+	.back-to-top {
+		height: 50px;
+		width: 50px;
+	}
+
 	.section-content {
 		padding: 0 150px;
 	}
