@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="styles/_reset.css">
     <link rel="stylesheet" href="styles/register_modal.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/additional_page.css">
     <link rel="stylesheet" href="styles/_media.css">
 </head>
 
@@ -59,8 +60,11 @@
                         <li class="navigation__list-item">
                             <a class="navigation__list-item-link" href="#programms">Программа</a>
                         </li>
-                        <li class="navigation__list-item">
+                        <!-- <li class="navigation__list-item">
                             <a class="navigation__list-item-link" href="#reviews">Отзывы</a>
+                        </li> -->
+                        <li class="navigation__list-item">
+                            <a class="navigation__list-item-link" href="#projects">Проекты</a>
                         </li>
                         <li class="navigation__list-item">
                             <a class="navigation__list-item-link" href="#contacts">Контакты</a>
@@ -180,12 +184,15 @@
                     </p>
                     <p class="register-modal__form-input">
                         <input id="name" name="name" class="short" placeholder="Имя" />
+                        <small class="small-red">Введите имя</small>
                     </p>
                     <p class="register-modal__form-input">
                         <input id="surname" name="surname" class="short" placeholder="Фамилия" />
+                        <small class="small-red">Введите фамилию</small>
                     </p>
                     <p class="register-modal__form-input">
                         <input id="email" name="email" class="short" placeholder="Email" />
+                        <small class="small-red">Введите Email</small>
                     </p>
                     <p class="register-modal__form-button">
                         <button type="submit" class="" name="send">Отправить</button>
@@ -204,21 +211,206 @@
                     <h3>Международная торговля. Экспорт</h3>
                     <p>5 дней. Особенности выхода на иностранные рынки, все этапы сделки: от переговоров до получения оплаты</p>
                 </div>
-                <a href="pages/trade_export.html" class="section-programms__content-item-link">Подробнее</a>   
+                <a href="#trade_export" class="section-programms__content-item-link popup-modal">Подробнее</a>
+                <section id="trade_export" class="mfp-hide white-popup-block section-page-wrap hidden-x">
+                    <div class="section-content">
+                        <div class="section-title">
+                            <h3>Международная торговля. Экспорт</h3>
+                        </div>
+                        <ul class="section-list">
+                            <li><span>День 1</span>&nbsp;Выход на экспортный рынок.</li>
+                            <li><span>День 2</span>&nbsp;Сопровождение внешнеэкономического контракта.</li>
+                            <li><span>День 3</span>&nbsp;Логистика и таможенное дело.</li>
+                            <li><span>День 4</span>&nbsp;Международные расчеты.</li>
+                            <li><span>День 5</span>&nbsp;Кейс: подготовка плана экспорта. Презентация проектов.</li>
+                        </ul>
+                        <p class="section-content__text">5 дней глубокого погружения в тему международной торговли. Реальные кейсы,
+                            практические знания, индивидуальная работа с
+                            каждым участником и разработка плана экспорта товара на внешний рынок.</p>
+                    </div>
+                    <div class="schedule">
+                        <div class="schedule__item">
+                            <div class="schedule__item__place-date">
+                                <div class="schedule__iteme__place">Киев</div>
+                                <div class="schedule__iteme__date">29.11.2019 - 30.11.2019</div>
+                                <div class="schedule__iteme__date">13.12.2019 - 14.12.2019</div>
+                            </div>
+                            <div class="schedule__item__price">12 000 грн.</div>
+                            <a href="#register-modal" class="schedule__item__action popup-modal">
+                                Сообщить <br>о дате старта
+                            </a>
+                
+                            <div id="register-modal" class="mfp-hide white-popup-block register-modal">
+                                <form class="register-modal__form" enctype="multipart/form-data" method="post" action="php/mail.php"
+                                    id="contactform">
+                                    <h4 class="register-modal__form-title">Регистрация</h4>
+                                    <p class="register-modal__form-description">
+                                        Международная торговля. Экспорт Харьков, дата старта 04.11.2019
+                                    </p>
+                                    <p class="register-modal__form-input">
+                                        <input id="name" name="name" class="short" placeholder="Имя" />
+                                    </p>
+                                    <p class="register-modal__form-input">
+                                        <input id="surname" name="surname" class="short" placeholder="Фамилия" />
+                                    </p>
+                                    <p class="register-modal__form-input">
+                                        <input id="email" name="email" class="short" placeholder="Email" />
+                                    </p>
+                                    <p class="register-modal__form-button">
+                                        <button type="submit" class="" name="send">Отправить</button>
+                                    </p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="animatedParent">
+                        <div class="animated bounceInUp subscribe-form-wrap">
+                            <div class="subscribe-form__text">Желаете получить более подробную программу курса? Мы вам напишем!
+                            </div>
+                            <form action="post" class="subscribe-form">
+                                <div class="subscribe-form__input">
+                                    <input type="text" placeholder="Ваш email">
+                                    <small class="small-red">Неверно введены данные</small>
+                                </div>
+                                <button type="submit" class="subscribe-form__button">Отправить</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
             </div>
             <div class="animated bounceInUp section-programms__content-item">
                 <div class="section-programms__content-item-text">
                     <h3>Международные расчеты</h3>
                     <p>Аккредитив, внешнеэкономическое сопровождение банковских операций и минимизация рисков</p>
                 </div>
-                <a href="pages/international_settlements.html" class="section-programms__content-item-link content-item-link__yelow">Подробнее</a>   
+                <a href="#international_settlements" class="section-programms__content-item-link content-item-link__yelow popup-modal">Подробнее</a>   
+                <section id="international_settlements" class="mfp-hide white-popup-block section-page-wrap hidden-x">
+                    <div class="section-content">
+                        <div class="section-title">
+                            <h3>Международные расчеты</h3>
+                        </div>
+                        <ul class="section-list">
+                            <li><span>День 1</span>&nbsp;Банковское сопровождение</li>
+                            <li><span>День 2</span>&nbsp;Аккредитив: основные аспекты, решение нестандартных ситуаций.</li>
+                            <li><span>День 3</span>&nbsp;Минимизация рисков и компенсация понесенных затрат.</li>
+                        </ul>
+                        <p class="section-content__text">3 дня глубокого погружения в тему международных расчетов. Реальные кейсы,
+                            практические знания, индивидуальная работа с
+                            каждым участником.</p>
+                
+                    </div>
+                    <div class="schedule">
+                        <div class="schedule__item">
+                            <div class="schedule__item__place-date">
+                                <div class="schedule__iteme__place">Харьков</div>
+                            </div>
+                            <div class="schedule__item__price">6 000 грн.</div>
+                            <!-- <a href="#register-modal" class="schedule__item__action popup-modal">Записаться</a> -->
+                            <a href="#register-modal" class="schedule__item__action popup-modal">Сообщить <br>о дате старта</a>
+                            <div id="register-modal" class="mfp-hide white-popup-block register-modal">
+                                <form class="register-modal__form" enctype="multipart/form-data" method="post" action="php/mail.php"
+                                    id="contactform">
+                                    <h4 class="register-modal__form-title">Регистрация</h4>
+                                    <p class="register-modal__form-description">
+                                        Международная торговля. Экспорт Харьков, дата старта 04.11.2019
+                                    </p>
+                                    <p class="register-modal__form-input">
+                                        <input id="name" name="name" class="short" placeholder="Имя" />
+                                    </p>
+                                    <p class="register-modal__form-input">
+                                        <input id="surname" name="surname" class="short" placeholder="Фамилия" />
+                                    </p>
+                                    <p class="register-modal__form-input">
+                                        <input id="email" name="email" class="short" placeholder="Email" />
+                                    </p>
+                                    <p class="register-modal__form-button">
+                                        <button type="submit" class="" name="send">Отправить</button>
+                                    </p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="animatedParent">
+                        <div class="animated bounceInUp subscribe-form-wrap">
+                            <div class="subscribe-form__text">Желаете получить более подробную программу курса? Мы вам напишем!</div>
+                            <form action="post" class="subscribe-form">
+                                <div class="subscribe-form__input">
+                                    <input type="text" placeholder="Ваш email">
+                                    <small class="small-red">Неверно введены данные</small>
+                                </div>
+                                <button type="submit" class="subscribe-form__button">Отправить</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
             </div>
             <div class="animated bounceInUp section-programms__content-item">
                 <div class="section-programms__content-item-text">
                     <h3>Международная торговля. Импорт</h3>
                     <p>5 дней. Способы поиска поставщиков, особенности импортных операций, оптимизация затрат</p>
                 </div>
-                <a href="pages/trade_import.html" class="section-programms__content-item-link">Подробнее</a>   
+                <a href="#trade_import" class="section-programms__content-item-link popup-modal">Подробнее</a>   
+                <section id="trade_import" class="mfp-hide white-popup-block section-page-wrap hidden-x">
+                    <div class="section-content">
+                        <div class="section-title">
+                            <h3>Международная торговля. Импорт</h3>
+                        </div>
+                        <ul class="section-list">
+                            <li><span>День 1</span>&nbsp;Поиск поставщиков и особенности международных переговоров.</li>
+                            <li><span>День 2</span>&nbsp;Сопровождение внешнеэкономического контракта.</li>
+                            <li><span>День 3</span>&nbsp;Логистика и таможенное дело.</li>
+                            <li><span>День 4</span>&nbsp;Международные расчеты.</li>
+                            <li><span>День 5</span>&nbsp;Кейс: подготовка плана импорта. Презентация проектов.</li>
+                        </ul>
+                        <p class="section-content__text">5 дней глубокого погружения в тему международной торговли.
+                            Реальные кейсы, практические знания, индивидуальная работа с
+                            каждым участником и разработка плана экспорта товара на внешний рынок.</p>
+                    </div>
+                    <div class="schedule">
+                        <div class="schedule__item">
+                            <div class="schedule__item__place-date">
+                                <div class="schedule__iteme__place">Харьков</div>
+                            </div>
+                            <div class="schedule__item__price">12 000 грн.</div>
+                            <a href="#register-modal" class="schedule__item__action popup-modal">
+                                Сообщить <br> о дате старта
+                            </a>
+                            <div id="register-modal" class="mfp-hide white-popup-block register-modal">
+                                <form class="register-modal__form" enctype="multipart/form-data" method="post" action="php/mail.php"
+                                    id="contactform">
+                                    <h4 class="register-modal__form-title">Регистрация</h4>
+                                    <p class="register-modal__form-description">
+                                        Международная торговля. Экспорт Харьков, дата старта 04.11.2019
+                                    </p>
+                                    <p class="register-modal__form-input">
+                                        <input id="name" name="name" class="short" placeholder="Имя" />
+                                    </p>
+                                    <p class="register-modal__form-input">
+                                        <input id="surname" name="surname" class="short" placeholder="Фамилия" />
+                                    </p>
+                                    <p class="register-modal__form-input">
+                                        <input id="email" name="email" class="short" placeholder="Email" />
+                                    </p>
+                                    <p class="register-modal__form-button">
+                                        <button type="submit" class="" name="send">Отправить</button>
+                                    </p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="animatedParent">
+                        <div class="animated bounceInUp subscribe-form-wrap">
+                            <div class="subscribe-form__text">Желаете получить более подробную программу курса? Мы вам напишем!</div>
+                            <form action="post" class="subscribe-form">
+                                <div class="subscribe-form__input">
+                                    <input type="text" placeholder="Ваш email">
+                                    <small class="small-red">Неверно введены данные</small>
+                                </div>
+                                <button type="submit" class="subscribe-form__button">Отправить</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
     </section>
@@ -421,6 +613,7 @@
                     <input type="text" placeholder="Ваш email">
                 </div>
                 <button type="submit" class="subscribe-form__button">Подписаться</button>
+                <small class="small-red">Неверно введены данные</small>
             </form>
         </div>
     </footer>

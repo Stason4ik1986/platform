@@ -39,19 +39,28 @@
 
 .section-list span {
     font-weight: 500;
+    white-space: nowrap;
     font-size: calc((100vw - 375px)/(1440 - 375) * (48 - 30) + 30px);
     line-height: calc((100vw - 375px)/(1440 - 375) * (35 - 30) + 30px);
     margin-right: calc((100vw - 375px)/(1440 - 375) * (20 - 15) + 15px);;
 }
 
+
 .subscribe-form {
     display: flex;
+    justify-content: center;
+    line-height: 1em;
+}
+
+.subscribe-form__input {
+    position: relative;
 }
 
 .subscribe-form__input input {
     font-weight: 300;
     border: none;
     max-width: 294px;
+    height: calc((100vw - 375px)/(1440 - 375) * (80 - 40) + 40px);
     font-size: calc((100vw - 375px)/(1440 - 375) * (24 - 16) + 16px);
     padding: calc((100vw - 375px)/(1440 - 375) * (20 - 5) + 5px) calc((100vw - 375px)/(1440 - 375) * (35 - 10) + 10px);
     line-height: calc((100vw - 375px)/(1440 - 375) * (40 - 30) + 30px);
@@ -64,6 +73,14 @@
     padding: 0 calc((100vw - 375px)/(1440 - 375) * (35 - 15) + 15px);
     height: calc((100vw - 375px)/(1440 - 375) * (80 - 40) + 40px);
     cursor: pointer;
+}
+
+.small-red  {
+    font-size: 16px;
+    color: red;
+    position: absolute;
+    top: 100%;
+    left: 0;
 }
 
 /* Back to top button */
@@ -693,8 +710,9 @@
 
 .platform-footer-form {
     padding-top: calc((100vw - 375px)/(1440 - 375) * (50 - 20) + 20px);
-    padding-bottom: calc((100vw - 375px)/(1440 - 375) * (50 - 20) + 20px);
+    padding-bottom: calc((100vw - 375px)/(1440 - 375) * (50 - 40) + 40px);
     display: flex;
+    position: relative;
 }
 
 .platform-footer-form__subscribe-text {

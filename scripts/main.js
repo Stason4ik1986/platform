@@ -27,8 +27,6 @@ $(document).ready(function () {
         
         if (headerContent.hasClass('animated')) {
             headerContent.removeClass('animated bounceInLeft go');
-        } else {
-            headerContent.addClass('animated bounceInLeft go');
         }
 
         e.preventDefault();
