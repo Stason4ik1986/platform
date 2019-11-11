@@ -1,6 +1,6 @@
 /* Main styles */
 .section-page-wrap {
-    padding: calc((100vw - 375px)/(1440 - 375) * (150 - 30) + 30px) 0;
+    padding: calc((100vw - 375px)/(1440 - 375) * (50 - 30) + 30px) 0;
     margin: auto;
     max-width: 90vw;
     max-height: 90vh;
@@ -180,7 +180,7 @@
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1440px) {
     .section-page-wrap {
-        padding: 150px 0;
+        padding: 50px 0;
     }
 
     .section-page-wrap .section-list li {
