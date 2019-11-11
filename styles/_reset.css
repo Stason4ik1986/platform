@@ -30,7 +30,8 @@ button {
     cursor: pointer;
 }
 
-input {
+input,
+select {
     outline: none;
     border: none; 
 }

@@ -48,7 +48,7 @@
 
 .section-page-wrap .subscribe-form__input input {
     border: 1px solid black;
-    width: calc((100vw - 375px)/(1440 - 375) * (350 - 240) + 240px);
+    width: calc((100vw - 375px)/(1440 - 375) * (350 - 200) + 200px);
 }
 
 .schedule {

@@ -3,13 +3,14 @@
 .register-modal {
     background-color: #ffffff;
     max-width: 556px;
-    max-height: 704px;
     margin: auto;
     text-align: center;
-    padding-top: calc((100vw - 375px)/(1440 - 375) * (71 - 40) + 40px);
+    padding-top: calc((100vw - 375px)/(1440 - 375) * (71 - 40) + 15px);
     padding-right: calc((100vw - 375px)/(1440 - 375) * (28 - 15) + 15px);
-    padding-bottom: calc((100vw - 375px)/(1440 - 375) * (91 - 50) + 50px);
-    padding-right: calc((100vw - 375px)/(1440 - 375) * (28 - 15) + 15px);
+    padding-bottom: calc((100vw - 375px)/(1440 - 375) * (91 - 50) + 15px);
+	padding-left: calc((100vw - 375px)/(1440 - 375) * (28 - 15) + 15px);
+	max-height: 90vh;
+  	overflow: auto;
 }
 
 .register-modal__form-title {
@@ -26,24 +27,37 @@
     padding: 0 calc((100vw - 375px)/(1440 - 375) * (75 - 15) + 15px);
 }
 
-.register-modal__form-input {
-	/* margin-bottom: calc((100vw - 375px)/(1440 - 375) * (30 - 15) + 15px); */
+.register-modal__form-input, 
+.register-modal__form-select {
+	/* margin: 0 auto calc((100vw - 375px)/(1440 - 375) * (30 - 15) + 15px); */
 	position: relative;
 	width: calc((100vw - 375px)/(1440 - 375) * (364 - 300) + 300px);
 	margin: 0 auto 40px;
 }
 
-.register-modal__form-input input {
+.register-modal__form-input input,
+.register-modal__form-select select {
     width: calc((100vw - 375px)/(1440 - 375) * (364 - 300) + 300px);
     height: calc((100vw - 375px)/(1440 - 375) * (64 - 40) + 40px);
     padding: calc((100vw - 375px)/(1440 - 375) * (22 - 10) + 10px);
     font-size: calc((100vw - 375px)/(1440 - 375) * (18 - 14) + 14px);
     border: 1px solid #000000;
 	transition: all .5s ease-in-out;
+	color: #888888;
+}
+
+.register-modal__form-select select {
+    background: #fff url(../images/platform_ic/ic-select.svg) no-repeat 95% 50%;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
 }
 
 .register-modal__form-input input:focus,
-.register-modal__form-input input:active {
+.register-modal__form-input input:active,
+.register-modal__form-select select:focus,
+.register-modal__form-select select:active {
     border: 1px solid #FEE610;
 }
 
@@ -99,6 +113,14 @@
 	opacity: 0;
 }
 
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.register-modal__form-input,
+	.register-modal__form-select {
+		margin: 0 auto 30px;
+	}
+}
+
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1440px) { 
 	.register-modal {
@@ -109,11 +131,14 @@
 		padding: 0 75px;
 	}
 
-	.register-modal__form-input {
+	.register-modal__form-input,
+	.register-modal__form-select {
 		width: 364px;
+		margin: 0 auto 40px;
 	}
 
-	.register-modal__form-input input {
+	.register-modal__form-input input,
+	.register-modal__form-select select {
 		width: 364px;
 		height: 64px; 
 		padding: 22px;
