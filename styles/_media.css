@@ -216,6 +216,10 @@
 		width: 50px;
 	}
 
+	.container {
+		width: 1170px;
+	}
+
 	.section-content {
 		padding: 0 150px;
 	}
@@ -253,8 +257,19 @@
 		height: 80px;
 	}
 
+	.platform-header__video {
+		position: absolute;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		top: 0;
+		width: 1920px;
+		max-height: 100%;
+		margin: 0 auto;
+	}
+
 	.platform-header__content {
-		padding: 50px 82px 206px 247px;
+		padding: 50px 15px 206px 15px;
 	}
 
 	.platform-header__navigation {
@@ -312,7 +327,8 @@
 	}
 
 	.section-privelegie {
-		padding: 57px 150px 96px;
+		/* padding: 57px 150px 96px; */
+		padding: 57px 0 96px;
 	}
 
 	.section-privelegie__content-item {
@@ -326,7 +342,8 @@
 	}
 
 	.section-programms {
-  		padding: 135px 150px 120px;
+  		/* padding: 135px 150px 120px; */
+  		padding: 135px 0 120px;
 	}
 
 	.section-programms__content {
@@ -347,7 +364,8 @@
 	}
 
 	.section-experts {
-    	padding: 0 150px 124px;
+    	/* padding: 0 150px 124px; */
+    	padding: 0 0 124px;
 	}
 
 	.experts__list button.owl-dot {
@@ -370,7 +388,7 @@
 	}
 
 	.section-projects__content {
-		padding: 20px 227px 0;
+		padding: 20px 40px 0;
 	}
 
 	.section-projects__contacts-card {

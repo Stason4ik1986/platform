@@ -15,8 +15,7 @@ body {
     font-size: calc((100vw - 375px)/(1440 - 375) * (24 - 18) + 18px);
     line-height: calc((100vw - 375px)/(1440 - 375) * (40 - 26) + 26px);
     font-weight: 300;
-    max-width: 1440px;
-	margin: 0 auto;
+
     background: #ffffff;
 }
 

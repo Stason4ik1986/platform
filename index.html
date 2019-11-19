@@ -20,11 +20,11 @@
     <link rel="stylesheet" href="styles/_media.css">
 </head>
 
-<body class="fullwidth">
+<body>
     <a href="#" id="back-to-top" class="back-to-top" title="Вверх">
         <span>&uarr;</span>
     </a>
-    <header class="platform-header hidden-x">
+    <header class="platform-header hidden-x fullwidth">
         <video autoplay muted id="myVideo" class="platform-header__video">
             <source src="./videos/platform_video.mp4" type="video/mp4">
         </video>
@@ -42,8 +42,8 @@
                             <a class="navigation__list-item-link" href="#programms">Программа</a>
                         </li>
                         <!-- <li class="navigation__list-item">
-                            <a class="navigation__list-item-link" href="#reviews">Отзывы</a>
-                        </li> -->
+                                        <a class="navigation__list-item-link" href="#reviews">Отзывы</a>
+                                    </li> -->
                         <li class="navigation__list-item">
                             <a class="navigation__list-item-link" href="#projects">Проекты</a>
                         </li>
@@ -51,7 +51,7 @@
                             <a class="navigation__list-item-link" href="#contacts">Контакты</a>
                         </li>
                     </ul>
-
+        
                     <a class="navigation__hidden-button" href="#">&#9776;</a>
                     <ul class="navigation__list-hidden">
                         <li class="navigation__list-item">
@@ -61,8 +61,8 @@
                             <a class="navigation__list-item-link" href="#programms">Программа</a>
                         </li>
                         <!-- <li class="navigation__list-item">
-                            <a class="navigation__list-item-link" href="#reviews">Отзывы</a>
-                        </li> -->
+                                        <a class="navigation__list-item-link" href="#reviews">Отзывы</a>
+                                    </li> -->
                         <li class="navigation__list-item">
                             <a class="navigation__list-item-link" href="#projects">Проекты</a>
                         </li>
@@ -82,13 +82,13 @@
                 <div class='animatedParent'>
                     <div class="delay-1000 animated fadeIn">
                         <div class="platform-header__timer-wrap">
-                            <div class="platform-header__start-begin">Ближайший старт:</div> 
+                            <div class="platform-header__start-begin">Ближайший старт:</div>
                             <!-- <div class="platform-header__timer">
-                                <div class="timer-item">25 <span>дней</span></div>
-                                <div class="timer-item">18 <span>часов</span></div>
-                                <div class="timer-item">36 <span>минут</span></div>
-                            </div>  -->
-                            <div class="platform-header__date">04.11.2019</div> 
+                                            <div class="timer-item">25 <span>дней</span></div>
+                                            <div class="timer-item">18 <span>часов</span></div>
+                                            <div class="timer-item">36 <span>минут</span></div>
+                                        </div>  -->
+                            <div class="platform-header__date">04.11.2019</div>
                         </div>
                         <p>Международная торговля.</p>
                         <p>Экспорт</p>
@@ -96,509 +96,522 @@
                 </div>
             </div>
         </div>
-        <section id="about" class="section-content section-about  hidden-x">
-            <div class="section-title">
-                <h2>Platforma позволяет:</h2>
-            </div>
-            <div class="section-about__allows">
-                <ul class="section-about__allows-list section-list">
-                    <li><span>1.</span>Понять принципы ведения международной торговли</li>
-                    <li><span>2.</span>Систематизировать знания о внешнеэкономической деятельности</li>
-                    <li><span>3.</span>Поделиться опытом ведения бизнеса</li>
-                    <li><span>4.</span>Создать network специалистов сферы ВЭД</li>
-                </ul>
-            </div>
-            <div class="section-title">
-                <h2>Для кого создана Platforma?</h2>
-            </div>
-            <div class="section-about__create-for">
-                <div class="animatedParent section-about__create-for-list is-animated" data-sequence="500">
-                    <div class="animated bounceInUp create-for-list__item" data-id='1'>
-                        <h4>Руководителей компаний</h4>
-                        <div class="create-for-list__item-content">
-                            Для укрепления позиций внутри компании и расширения сети внешних полезных знакомств
-                        </div>
-                    </div>
-                    <div class="animated bounceInUp create-for-list__item" data-id='2'>
-                        <h4>Собственников бизнеса</h4>
-                        <div class="create-for-list__item-content">
-                            Кто планирует сделать следующий шаг в развитии своего бизнеса и пополнить список клиентов, но не
-                            имеют нужных знаний.
-                        </div>
-                    </div>
-                    <div class="animated bounceInUp create-for-list__item" data-id='3'>
-                        <h4>Начинающих экспортеров</h3>
-                        <div class="create-for-list__item-content">
-                            Когда есть оригинальная идея, возможность и желание, но нет понимания, как все грамотно
-                            реализовать.
-                        </div>
-                    </div>
+        
+        <section id="about" class="section-about hidden-x">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Platforma позволяет:</h2>
                 </div>
-                <div class="section-about__create-for-list not-animated">
-                    <div class="create-for-list__item">
-                        <h4>Руководителей компаний</h4>
-                        <div class="create-for-list__item-content">
-                            Для укрепления позиций внутри компании и расширения сети внешних полезных знакомств
+                <div class="section-about__allows">
+                    <ul class="section-about__allows-list section-list">
+                        <li><span>1.</span>Понять принципы ведения международной торговли</li>
+                        <li><span>2.</span>Систематизировать знания о внешнеэкономической деятельности</li>
+                        <li><span>3.</span>Поделиться опытом ведения бизнеса</li>
+                        <li><span>4.</span>Создать network специалистов сферы ВЭД</li>
+                    </ul>
+                </div>
+                <div class="section-title">
+                    <h2>Для кого создана Platforma?</h2>
+                </div>
+                <div class="section-about__create-for">
+                    <div class="animatedParent section-about__create-for-list is-animated" data-sequence="500">
+                        <div class="animated bounceInUp create-for-list__item" data-id='1'>
+                            <h4>Руководителей компаний</h4>
+                            <div class="create-for-list__item-content">
+                                Для укрепления позиций внутри компании и расширения сети внешних полезных знакомств
+                            </div>
+                        </div>
+                        <div class="animated bounceInUp create-for-list__item" data-id='2'>
+                            <h4>Собственников бизнеса</h4>
+                            <div class="create-for-list__item-content">
+                                Кто планирует сделать следующий шаг в развитии своего бизнеса и пополнить список клиентов, но не
+                                имеют нужных знаний.
+                            </div>
+                        </div>
+                        <div class="animated bounceInUp create-for-list__item" data-id='3'>
+                            <h4>Начинающих экспортеров</h3>
+                            <div class="create-for-list__item-content">
+                                Когда есть оригинальная идея, возможность и желание, но нет понимания, как все грамотно
+                                реализовать.
+                            </div>
                         </div>
                     </div>
-                    <div class="create-for-list__item">
-                        <h4>Собственников бизнеса</h4>
-                        <div class="create-for-list__item-content">
-                            Кто планирует сделать следующий шаг в развитии своего бизнеса и пополнить список клиентов, но не
-                            имеют нужных знаний.
+                    <div class="section-about__create-for-list not-animated">
+                        <div class="create-for-list__item">
+                            <h4>Руководителей компаний</h4>
+                            <div class="create-for-list__item-content">
+                                Для укрепления позиций внутри компании и расширения сети внешних полезных знакомств
+                            </div>
                         </div>
-                    </div>
-                    <div class="create-for-list__item">
-                        <h4>Начинающих экспортеров</h3>
-                        <div class="create-for-list__item-content">
-                            Когда есть оригинальная идея, возможность и желание, но нет понимания, как все грамотно
-                            реализовать.
+                        <div class="create-for-list__item">
+                            <h4>Собственников бизнеса</h4>
+                            <div class="create-for-list__item-content">
+                                Кто планирует сделать следующий шаг в развитии своего бизнеса и пополнить список клиентов, но не
+                                имеют нужных знаний.
+                            </div>
+                        </div>
+                        <div class="create-for-list__item">
+                            <h4>Начинающих экспортеров</h3>
+                            <div class="create-for-list__item-content">
+                                Когда есть оригинальная идея, возможность и желание, но нет понимания, как все грамотно
+                                реализовать.
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
     </header>
-    <section class="section-privelegie">
-        <div class="section-title">
-            <h2>На Platforme вы получите</h2>
-        </div>
-        <div class="section-privelegie__content">
-            <div class="section-privelegie__content-item ic-check">Сформированный план работы с продуктом на внешнем рынке</div>
-            <div class="section-privelegie__content-item ic-list">Способы выхода из нестандартных ситуаций</div>
-            <div class="section-privelegie__content-item ic-bag">Навык работы с требованиями иностранных покупателей</div>
-            <div class="section-privelegie__content-item ic-book">Знания о сопровождении международных сделок</div>
-            <div class="section-privelegie__content-item ic-chat">Навык переговоров с иностранными контрагентами</div>
-            <div class="section-privelegie__content-item ic-base">Опыт расчета финансового результата ВЭД сделки</div>
-        </div>
-        <div class="animatedParent section-prevelegie__apply center">
-            <a href="#register-modal" class="animated bounceInUp popup-modal">Регистрация</a>
-            <!-- <a href="" class="schedule__item__action">Сообщить о <br> дате старта</a> -->
-            
-            <div id="register-modal" class="mfp-hide white-popup-block register-modal">
-                <form class="register-modal__form" enctype="multipart/form-data" method="post" action="php/mail.php"
-                    id="contactform">
-                    <h4 class="register-modal__form-title">Регистрация</h4>
-                    <p class="register-modal__form-description">
-                        Международная торговля. Экспорт Харьков, дата старта 04.11.2019
-                    </p>
-                    <p class="register-modal__form-input">
-                        <input id="name" name="name" class="short" placeholder="Имя" />
-                        <small class="small-red">Введите имя</small>
-                    </p>
-                    <p class="register-modal__form-input">
-                        <input id="surname" name="surname" class="short" placeholder="Фамилия" />
-                        <small class="small-red">Введите фамилию</small>
-                    </p>
-                    <p class="register-modal__form-input">
-                        <input id="email" name="email" class="short" placeholder="Email" />
-                        <small class="small-red">Введите Email</small>
-                    </p>
-                    <p class="register-modal__form-button">
-                        <button type="submit" class="" name="send">Отправить</button>
-                    </p>
-                </form>
+    <section class="section-privelegie fullwidth">
+        <div class="container">
+            <div class="section-title">
+                <h2>На Platforme вы получите</h2>
+            </div>
+            <div class="section-privelegie__content">
+                <div class="section-privelegie__content-item ic-check">Сформированный план работы с продуктом на внешнем рынке</div>
+                <div class="section-privelegie__content-item ic-list">Способы выхода из нестандартных ситуаций</div>
+                <div class="section-privelegie__content-item ic-bag">Навык работы с требованиями иностранных покупателей</div>
+                <div class="section-privelegie__content-item ic-book">Знания о сопровождении международных сделок</div>
+                <div class="section-privelegie__content-item ic-chat">Навык переговоров с иностранными контрагентами</div>
+                <div class="section-privelegie__content-item ic-base">Опыт расчета финансового результата ВЭД сделки</div>
+            </div>
+            <div class="animatedParent section-prevelegie__apply center">
+                <a href="#register-modal" class="animated bounceInUp popup-modal">Регистрация</a>
+                <!-- <a href="" class="schedule__item__action">Сообщить о <br> дате старта</a> -->
+                
+                <div id="register-modal" class="mfp-hide white-popup-block register-modal">
+                    <form class="register-modal__form" enctype="multipart/form-data" method="post" action="php/mail.php"
+                        id="contactform">
+                        <h4 class="register-modal__form-title">Регистрация</h4>
+                        <p class="register-modal__form-description">
+                            Международная торговля. Экспорт Харьков, дата старта 04.11.2019
+                        </p>
+                        <p class="register-modal__form-input">
+                            <input id="name" name="name" class="short" placeholder="Имя" />
+                            <small class="small-red">Введите имя</small>
+                        </p>
+                        <p class="register-modal__form-input">
+                            <input id="surname" name="surname" class="short" placeholder="Фамилия" />
+                            <small class="small-red">Введите фамилию</small>
+                        </p>
+                        <p class="register-modal__form-input">
+                            <input id="email" name="email" class="short" placeholder="Email" />
+                            <small class="small-red">Введите Email</small>
+                        </p>
+                        <p class="register-modal__form-button">
+                            <button type="submit" class="" name="send">Отправить</button>
+                        </p>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
     <section id="programms" class="section-programms hidden-x">
-        <div class="section-title">
-            <h2>Программы</h2>
-        </div>
-        <div class="animatedParent section-programms__content">
-            <div class="animated bounceInUp  section-programms__content-item">
-                <div class="section-programms__content-item-text" >
-                    <h3>Международная торговля. Экспорт</h3>
-                    <p>5 дней. Особенности выхода на иностранные рынки, все этапы сделки: от переговоров до получения оплаты</p>
-                </div>
-                <a href="#trade_export" class="section-programms__content-item-link popup-modal">Подробнее</a>
-                <section id="trade_export" class="mfp-hide white-popup-block section-page-wrap">
-                    <div class="section-content">
-                        <div class="section-title">
-                            <h3>Международная торговля. Экспорт</h3>
-                        </div>
-                        <ul class="section-list">
-                            <li><span>День 1</span>&nbsp;Выход на экспортный рынок.</li>
-                            <li><span>День 2</span>&nbsp;Сопровождение внешнеэкономического контракта.</li>
-                            <li><span>День 3</span>&nbsp;Логистика и таможенное дело.</li>
-                            <li><span>День 4</span>&nbsp;Международные расчеты.</li>
-                            <li><span>День 5</span>&nbsp;Кейс: подготовка плана экспорта. Презентация проектов.</li>
-                        </ul>
-                        <p class="section-content__text">5 дней глубокого погружения в тему международной торговли. Реальные кейсы,
-                            практические знания, индивидуальная работа с
-                            каждым участником и разработка плана экспорта товара на внешний рынок.</p>
-                    </div>
-                    <div class="schedule">
-                        <div class="schedule__item">
-                            <div class="schedule__item__place-date">
-                                <div class="schedule__iteme__place">Киев</div>
-                                <div class="schedule__iteme__date">29.11.2019 - 30.11.2019</div>
-                                <div class="schedule__iteme__date">13.12.2019 - 14.12.2019</div>
-                            </div>
-                            <div class="schedule__item__price">12 000 грн.</div>
-                            <a href="#register-modal-1" class="schedule__item__action popup-modal">
-                                Сообщить <br>о дате старта
-                            </a>
-                
-                            <div id="register-modal-1" class="mfp-hide white-popup-block register-modal">
-                                <form class="register-modal__form" enctype="multipart/form-data" method="post" action="php/mail.php"
-                                    id="contactform">
-                                    <h4 class="register-modal__form-title">Регистрация</h4>
-                                    <p class="register-modal__form-description">
-                                        Международная торговля. Экспорт Харьков, дата старта 04.11.2019
-                                    </p>
-                                    <p class="register-modal__form-input">
-                                        <input id="name" name="name" placeholder="Имя" />
-                                        <small class="small-red">Введите имя</small>
-                                    </p>
-                                    <p class="register-modal__form-input">
-                                        <input id="surname" name="surname" placeholder="Фамилия" />
-                                        <small class="small-red">Введите фамилию</small>
-                                    </p>
-                                    <p class="register-modal__form-input">
-                                        <input type="text" id="phone" name="phone"
-                                                data-mask="+38 (000) 000 00 00"
-                                                placeholder="+38 (___) ___ __ __" />
-                                        <small class="small-red">Введите Номер телеофон</small>
-                                    </p>
-                                    <p class="register-modal__form-input">
-                                        <input id="email" name="email" placeholder="Email" />
-                                        <small class="small-red">Введите Email</small>
-                                    </p>
-                                    <p class="register-modal__form-select">
-                                        <select name="programms" id="programms" placeholder="Выберите программу">
-                                            <option>Выберите программу</option>
-                                            <option>Программа 1</option>
-                                            <option>Программа 2</option>
-                                        </select>
-                                        <small class="small-red">Выберите программу</small>
-                                    </p>
-                                    <p class="register-modal__form-button">
-                                        <button type="submit" class="" name="send">Отправить</button>
-                                    </p>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="animatedParent">
-                        <div class="animated bounceInUp subscribe-form-wrap">
-                            <div class="subscribe-form__text">Желаете получить более подробную программу курса? Мы вам напишем!
-                            </div>
-                            <form action="post" class="subscribe-form">
-                                <div class="subscribe-form__input">
-                                    <input type="text" placeholder="Ваш email">
-                                    <small class="small-red">Неверно введены данные</small>
-                                </div>
-                                <button type="submit" class="subscribe-form__button">Отправить</button>
-                            </form>
-                        </div>
-                    </div>
-                </section>
+        <div class="container">
+            <div class="section-title">
+                <h2>Программы</h2>
             </div>
-            <div class="animated bounceInUp section-programms__content-item">
-                <div class="section-programms__content-item-text">
-                    <h3>Международные расчеты</h3>
-                    <p>Аккредитив, внешнеэкономическое сопровождение банковских операций и минимизация рисков</p>
-                </div>
-                <a href="#international_settlements" class="section-programms__content-item-link content-item-link__yelow popup-modal">Подробнее</a>   
-                <section id="international_settlements" class="mfp-hide white-popup-block section-page-wrap">
-                    <div class="section-content">
-                        <div class="section-title">
-                            <h3>Международные расчеты</h3>
-                        </div>
-                        <ul class="section-list">
-                            <li><span>День 1</span>&nbsp;Банковское сопровождение</li>
-                            <li><span>День 2</span>&nbsp;Аккредитив: основные аспекты, решение нестандартных ситуаций.</li>
-                            <li><span>День 3</span>&nbsp;Минимизация рисков и компенсация понесенных затрат.</li>
-                        </ul>
-                        <p class="section-content__text">3 дня глубокого погружения в тему международных расчетов. Реальные кейсы,
-                            практические знания, индивидуальная работа с
-                            каждым участником.</p>
-                
+            <div class="animatedParent section-programms__content">
+                <div class="animated bounceInUp  section-programms__content-item">
+                    <div class="section-programms__content-item-text" >
+                        <h3>Международная торговля. Экспорт</h3>
+                        <p>5 дней. Особенности выхода на иностранные рынки, все этапы сделки: от переговоров до получения оплаты</p>
                     </div>
-                    <div class="schedule">
-                        <div class="schedule__item">
-                            <div class="schedule__item__place-date">
-                                <div class="schedule__iteme__place">Харьков</div>
+                    <a href="#trade_export" class="section-programms__content-item-link popup-modal">Подробнее</a>
+                    <section id="trade_export" class="mfp-hide white-popup-block section-page-wrap">
+                        <div class="section-content">
+                            <div class="section-title">
+                                <h3>Международная торговля. Экспорт</h3>
                             </div>
-                            <div class="schedule__item__price">6 000 грн.</div>
-                            <!-- <a href="#register-modal" class="schedule__item__action popup-modal">Записаться</a> -->
-                            <a href="#register-modal-2" class="schedule__item__action popup-modal">Сообщить <br>о дате старта</a>
-                            <div id="register-modal-2" class="mfp-hide white-popup-block register-modal">
-                                <form class="register-modal__form" enctype="multipart/form-data" method="post" action="php/mail.php"
-                                    id="contactform">
-                                    <h4 class="register-modal__form-title">Регистрация</h4>
-                                    <p class="register-modal__form-description">
-                                        Международная торговля. Экспорт Харьков, дата старта 04.11.2019
-                                    </p>
-                                    <p class="register-modal__form-input">
-                                        <input id="name" name="name" placeholder="Имя" />
-                                        <small class="small-red">Введите имя</small>
-                                    </p>
-                                    <p class="register-modal__form-input">
-                                        <input id="surname" name="surname" placeholder="Фамилия" />
-                                        <small class="small-red">Введите фамилию</small>
-                                    </p>
-                                    <p class="register-modal__form-input">
-                                        <input type="text" id="phone" name="phone"
-                                                data-mask="+38 (000) 000 00 00"
-                                                placeholder="+38 (___) ___ __ __" />
-                                        <small class="small-red">Введите Номер телеофон</small>
-                                    </p>
-                                     <p class="register-modal__form-input">
-                                        <input id="email" name="email" placeholder="Email" />
-                                        <small class="small-red">Введите Email</small>
-                                    </p>
-                                    <p class="register-modal__form-select">
-                                        <select name="programms" id="programms" placeholder="Выберите программу">
-                                            <option>Выберите программу</option>
-                                            <option>Программа 1</option>
-                                            <option>Программа 2</option>
-                                        </select>
-                                        <small class="small-red">Выберите программу</small>
-                                    </p>
-                                    <p class="register-modal__form-button">
-                                        <button type="submit" class="" name="send">Отправить</button>
-                                    </p>
+                            <ul class="section-list">
+                                <li><span>День 1</span>&nbsp;Выход на экспортный рынок.</li>
+                                <li><span>День 2</span>&nbsp;Сопровождение внешнеэкономического контракта.</li>
+                                <li><span>День 3</span>&nbsp;Логистика и таможенное дело.</li>
+                                <li><span>День 4</span>&nbsp;Международные расчеты.</li>
+                                <li><span>День 5</span>&nbsp;Кейс: подготовка плана экспорта. Презентация проектов.</li>
+                            </ul>
+                            <p class="section-content__text">5 дней глубокого погружения в тему международной торговли. Реальные кейсы,
+                                практические знания, индивидуальная работа с
+                                каждым участником и разработка плана экспорта товара на внешний рынок.</p>
+                        </div>
+                        <div class="schedule">
+                            <div class="schedule__item">
+                                <div class="schedule__item__place-date">
+                                    <div class="schedule__iteme__place">Киев</div>
+                                    <div class="schedule__iteme__date">29.11.2019 - 30.11.2019</div>
+                                    <div class="schedule__iteme__date">13.12.2019 - 14.12.2019</div>
+                                </div>
+                                <div class="schedule__item__price">12 000 грн.</div>
+                                <a href="#register-modal-1" class="schedule__item__action popup-modal">
+                                    Сообщить <br>о дате старта
+                                </a>
+                    
+                                <div id="register-modal-1" class="mfp-hide white-popup-block register-modal">
+                                    <form class="register-modal__form" enctype="multipart/form-data" method="post" action="php/mail.php"
+                                        id="contactform">
+                                        <h4 class="register-modal__form-title">Регистрация</h4>
+                                        <p class="register-modal__form-description">
+                                            Международная торговля. Экспорт Харьков, дата старта 04.11.2019
+                                        </p>
+                                        <p class="register-modal__form-input">
+                                            <input id="name" name="name" placeholder="Имя" />
+                                            <small class="small-red">Введите имя</small>
+                                        </p>
+                                        <p class="register-modal__form-input">
+                                            <input id="surname" name="surname" placeholder="Фамилия" />
+                                            <small class="small-red">Введите фамилию</small>
+                                        </p>
+                                        <p class="register-modal__form-input">
+                                            <input type="text" id="phone" name="phone"
+                                                    data-mask="+38 (000) 000 00 00"
+                                                    placeholder="+38 (___) ___ __ __" />
+                                            <small class="small-red">Введите Номер телеофон</small>
+                                        </p>
+                                        <p class="register-modal__form-input">
+                                            <input id="email" name="email" placeholder="Email" />
+                                            <small class="small-red">Введите Email</small>
+                                        </p>
+                                        <p class="register-modal__form-select">
+                                            <select name="programms" id="programms" placeholder="Выберите программу">
+                                                <option>Выберите программу</option>
+                                                <option>Программа 1</option>
+                                                <option>Программа 2</option>
+                                            </select>
+                                            <small class="small-red">Выберите программу</small>
+                                        </p>
+                                        <p class="register-modal__form-button">
+                                            <button type="submit" class="" name="send">Отправить</button>
+                                        </p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="animatedParent">
+                            <div class="animated bounceInUp subscribe-form-wrap">
+                                <div class="subscribe-form__text">Желаете получить более подробную программу курса? Мы вам напишем!
+                                </div>
+                                <form action="post" class="subscribe-form">
+                                    <div class="subscribe-form__input">
+                                        <input type="text" placeholder="Ваш email">
+                                        <small class="small-red">Неверно введены данные</small>
+                                    </div>
+                                    <button type="submit" class="subscribe-form__button">Отправить</button>
                                 </form>
                             </div>
                         </div>
-                    </div>
-                    <div class="animatedParent">
-                        <div class="animated bounceInUp subscribe-form-wrap">
-                            <div class="subscribe-form__text">Желаете получить более подробную программу курса? Мы вам напишем!</div>
-                            <form action="post" class="subscribe-form">
-                                <div class="subscribe-form__input">
-                                    <input type="text" placeholder="Ваш email">
-                                    <small class="small-red">Неверно введены данные</small>
-                                </div>
-                                <button type="submit" class="subscribe-form__button">Отправить</button>
-                            </form>
-                        </div>
-                    </div>
-                </section>
-            </div>
-            <div class="animated bounceInUp section-programms__content-item">
-                <div class="section-programms__content-item-text">
-                    <h3>Международная торговля. Импорт</h3>
-                    <p>5 дней. Способы поиска поставщиков, особенности импортных операций, оптимизация затрат</p>
+                    </section>
                 </div>
-                <a href="#trade_import" class="section-programms__content-item-link popup-modal">Подробнее</a>   
-                <section id="trade_import" class="mfp-hide white-popup-block section-page-wrap">
-                    <div class="section-content">
-                        <div class="section-title">
-                            <h3>Международная торговля. Импорт</h3>
-                        </div>
-                        <ul class="section-list">
-                            <li><span>День 1</span>&nbsp;Поиск поставщиков и особенности международных переговоров.</li>
-                            <li><span>День 2</span>&nbsp;Сопровождение внешнеэкономического контракта.</li>
-                            <li><span>День 3</span>&nbsp;Логистика и таможенное дело.</li>
-                            <li><span>День 4</span>&nbsp;Международные расчеты.</li>
-                            <li><span>День 5</span>&nbsp;Кейс: подготовка плана импорта. Презентация проектов.</li>
-                        </ul>
-                        <p class="section-content__text">5 дней глубокого погружения в тему международной торговли.
-                            Реальные кейсы, практические знания, индивидуальная работа с
-                            каждым участником и разработка плана экспорта товара на внешний рынок.</p>
+                <div class="animated bounceInUp section-programms__content-item">
+                    <div class="section-programms__content-item-text">
+                        <h3>Международные расчеты</h3>
+                        <p>Аккредитив, внешнеэкономическое сопровождение банковских операций и минимизация рисков</p>
                     </div>
-                    <div class="schedule">
-                        <div class="schedule__item">
-                            <div class="schedule__item__place-date">
-                                <div class="schedule__iteme__place">Харьков</div>
+                    <a href="#international_settlements" class="section-programms__content-item-link content-item-link__yelow popup-modal">Подробнее</a>   
+                    <section id="international_settlements" class="mfp-hide white-popup-block section-page-wrap">
+                        <div class="section-content">
+                            <div class="section-title">
+                                <h3>Международные расчеты</h3>
                             </div>
-                            <div class="schedule__item__price">12 000 грн.</div>
-                            <a href="#register-modal-3" class="schedule__item__action popup-modal">
-                                Сообщить <br> о дате старта
-                            </a>
-                            <div id="register-modal-3" class="mfp-hide white-popup-block register-modal">
-                                <form class="register-modal__form" enctype="multipart/form-data" method="post" action="php/mail.php"
-                                    id="contactform">
-                                    <h4 class="register-modal__form-title">Регистрация</h4>
-                                    <p class="register-modal__form-description">
-                                        Международная торговля. Экспорт Харьков, дата старта 04.11.2019
-                                    </p>
-                                    <p class="register-modal__form-input">
-                                        <input id="name" name="name" placeholder="Имя" />
-                                        <small class="small-red">Введите имя</small>
-                                    </p>
-                                    <p class="register-modal__form-input">
-                                        <input id="surname" name="surname" placeholder="Фамилия" />
-                                        <small class="small-red">Введите фамилию</small>
-                                    </p>
-                                    <p class="register-modal__form-input">
-                                        <input type="text" id="phone" name="phone"
-                                                data-mask="+38 (000) 000 00 00"
-                                                placeholder="+38 (___) ___ __ __"  />
-                                        <small class="small-red">Введите Номер телеофон</small>
-                                    </p>
-                                    <p class="register-modal__form-input">
-                                        <input id="email" name="email" placeholder="Email" />
-                                        <small class="small-red">Введите Email</small>
-                                    </p>
-                                    <p class="register-modal__form-select">
-                                        <select name="programms" id="programms" placeholder="Выберите программу">
-                                            <option>Выберите программу</option>
-                                            <option>Программа 1</option>
-                                            <option>Программа 2</option>
-                                        </select>
-                                        <small class="small-red">Выберите программу</small>
-                                    </p>
-                                    <p class="register-modal__form-button">
-                                        <button type="submit" class="" name="send">Отправить</button>
-                                    </p>
+                            <ul class="section-list">
+                                <li><span>День 1</span>&nbsp;Банковское сопровождение</li>
+                                <li><span>День 2</span>&nbsp;Аккредитив: основные аспекты, решение нестандартных ситуаций.</li>
+                                <li><span>День 3</span>&nbsp;Минимизация рисков и компенсация понесенных затрат.</li>
+                            </ul>
+                            <p class="section-content__text">3 дня глубокого погружения в тему международных расчетов. Реальные кейсы,
+                                практические знания, индивидуальная работа с
+                                каждым участником.</p>
+                    
+                        </div>
+                        <div class="schedule">
+                            <div class="schedule__item">
+                                <div class="schedule__item__place-date">
+                                    <div class="schedule__iteme__place">Харьков</div>
+                                </div>
+                                <div class="schedule__item__price">6 000 грн.</div>
+                                <!-- <a href="#register-modal" class="schedule__item__action popup-modal">Записаться</a> -->
+                                <a href="#register-modal-2" class="schedule__item__action popup-modal">Сообщить <br>о дате старта</a>
+                                <div id="register-modal-2" class="mfp-hide white-popup-block register-modal">
+                                    <form class="register-modal__form" enctype="multipart/form-data" method="post" action="php/mail.php"
+                                        id="contactform">
+                                        <h4 class="register-modal__form-title">Регистрация</h4>
+                                        <p class="register-modal__form-description">
+                                            Международная торговля. Экспорт Харьков, дата старта 04.11.2019
+                                        </p>
+                                        <p class="register-modal__form-input">
+                                            <input id="name" name="name" placeholder="Имя" />
+                                            <small class="small-red">Введите имя</small>
+                                        </p>
+                                        <p class="register-modal__form-input">
+                                            <input id="surname" name="surname" placeholder="Фамилия" />
+                                            <small class="small-red">Введите фамилию</small>
+                                        </p>
+                                        <p class="register-modal__form-input">
+                                            <input type="text" id="phone" name="phone"
+                                                    data-mask="+38 (000) 000 00 00"
+                                                    placeholder="+38 (___) ___ __ __" />
+                                            <small class="small-red">Введите Номер телеофон</small>
+                                        </p>
+                                        <p class="register-modal__form-input">
+                                            <input id="email" name="email" placeholder="Email" />
+                                            <small class="small-red">Введите Email</small>
+                                        </p>
+                                        <p class="register-modal__form-select">
+                                            <select name="programms" id="programms" placeholder="Выберите программу">
+                                                <option>Выберите программу</option>
+                                                <option>Программа 1</option>
+                                                <option>Программа 2</option>
+                                            </select>
+                                            <small class="small-red">Выберите программу</small>
+                                        </p>
+                                        <p class="register-modal__form-button">
+                                            <button type="submit" class="" name="send">Отправить</button>
+                                        </p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="animatedParent">
+                            <div class="animated bounceInUp subscribe-form-wrap">
+                                <div class="subscribe-form__text">Желаете получить более подробную программу курса? Мы вам напишем!</div>
+                                <form action="post" class="subscribe-form">
+                                    <div class="subscribe-form__input">
+                                        <input type="text" placeholder="Ваш email">
+                                        <small class="small-red">Неверно введены данные</small>
+                                    </div>
+                                    <button type="submit" class="subscribe-form__button">Отправить</button>
                                 </form>
                             </div>
                         </div>
+                    </section>
+                </div>
+                <div class="animated bounceInUp section-programms__content-item">
+                    <div class="section-programms__content-item-text">
+                        <h3>Международная торговля. Импорт</h3>
+                        <p>5 дней. Способы поиска поставщиков, особенности импортных операций, оптимизация затрат</p>
                     </div>
-                    <div class="animatedParent">
-                        <div class="animated bounceInUp subscribe-form-wrap">
-                            <div class="subscribe-form__text">Желаете получить более подробную программу курса? Мы вам напишем!</div>
-                            <form action="post" class="subscribe-form">
-                                <div class="subscribe-form__input">
-                                    <input type="text" placeholder="Ваш email">
-                                    <small class="small-red">Неверно введены данные</small>
-                                </div>
-                                <button type="submit" class="subscribe-form__button">Отправить</button>
-                            </form>
+                    <a href="#trade_import" class="section-programms__content-item-link popup-modal">Подробнее</a>   
+                    <section id="trade_import" class="mfp-hide white-popup-block section-page-wrap">
+                        <div class="section-content">
+                            <div class="section-title">
+                                <h3>Международная торговля. Импорт</h3>
+                            </div>
+                            <ul class="section-list">
+                                <li><span>День 1</span>&nbsp;Поиск поставщиков и особенности международных переговоров.</li>
+                                <li><span>День 2</span>&nbsp;Сопровождение внешнеэкономического контракта.</li>
+                                <li><span>День 3</span>&nbsp;Логистика и таможенное дело.</li>
+                                <li><span>День 4</span>&nbsp;Международные расчеты.</li>
+                                <li><span>День 5</span>&nbsp;Кейс: подготовка плана импорта. Презентация проектов.</li>
+                            </ul>
+                            <p class="section-content__text">5 дней глубокого погружения в тему международной торговли.
+                                Реальные кейсы, практические знания, индивидуальная работа с
+                                каждым участником и разработка плана экспорта товара на внешний рынок.</p>
                         </div>
-                    </div>
-                </section>
+                        <div class="schedule">
+                            <div class="schedule__item">
+                                <div class="schedule__item__place-date">
+                                    <div class="schedule__iteme__place">Харьков</div>
+                                </div>
+                                <div class="schedule__item__price">12 000 грн.</div>
+                                <a href="#register-modal-3" class="schedule__item__action popup-modal">
+                                    Сообщить <br> о дате старта
+                                </a>
+                                <div id="register-modal-3" class="mfp-hide white-popup-block register-modal">
+                                    <form class="register-modal__form" enctype="multipart/form-data" method="post" action="php/mail.php"
+                                        id="contactform">
+                                        <h4 class="register-modal__form-title">Регистрация</h4>
+                                        <p class="register-modal__form-description">
+                                            Международная торговля. Экспорт Харьков, дата старта 04.11.2019
+                                        </p>
+                                        <p class="register-modal__form-input">
+                                            <input id="name" name="name" placeholder="Имя" />
+                                            <small class="small-red">Введите имя</small>
+                                        </p>
+                                        <p class="register-modal__form-input">
+                                            <input id="surname" name="surname" placeholder="Фамилия" />
+                                            <small class="small-red">Введите фамилию</small>
+                                        </p>
+                                        <p class="register-modal__form-input">
+                                            <input type="text" id="phone" name="phone"
+                                                    data-mask="+38 (000) 000 00 00"
+                                                    placeholder="+38 (___) ___ __ __"  />
+                                            <small class="small-red">Введите Номер телеофон</small>
+                                        </p>
+                                        <p class="register-modal__form-input">
+                                            <input id="email" name="email" placeholder="Email" />
+                                            <small class="small-red">Введите Email</small>
+                                        </p>
+                                        <p class="register-modal__form-select">
+                                            <select name="programms" id="programms" placeholder="Выберите программу">
+                                                <option>Выберите программу</option>
+                                                <option>Программа 1</option>
+                                                <option>Программа 2</option>
+                                            </select>
+                                            <small class="small-red">Выберите программу</small>
+                                        </p>
+                                        <p class="register-modal__form-button">
+                                            <button type="submit" class="" name="send">Отправить</button>
+                                        </p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="animatedParent">
+                            <div class="animated bounceInUp subscribe-form-wrap">
+                                <div class="subscribe-form__text">Желаете получить более подробную программу курса? Мы вам напишем!</div>
+                                <form action="post" class="subscribe-form">
+                                    <div class="subscribe-form__input">
+                                        <input type="text" placeholder="Ваш email">
+                                        <small class="small-red">Неверно введены данные</small>
+                                    </div>
+                                    <button type="submit" class="subscribe-form__button">Отправить</button>
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+                </div>
             </div>
         </div>
     </section>
     <section class="section-experts">
-        <div class="section-title">
-            <h2>Наши эксперты</h2>
-        </div>
-        <div class="experts__list owl-carousel">
-            <div class="experts__list-item">
-                <div class="experts__list-item-photo">
-                    <img src="images/anna_kovalenko.png" alt="Анна Коваленко" />
-                    <div class="experts__list-item-content">
-                        Руководитель и вдохно- витель platforma. Методолог общего цикла экспорта.
-                    </div>
-                </div>
-                <h4>Анна Коваленко</h4>
+        <div class="container">
+            <div class="section-title">
+                <h2>Наши эксперты</h2>
             </div>
-            <div class="experts__list-item">
-                <div class="experts__list-item-photo">
-                    <img src="images/denis_dmitriev.png" alt="Денис Дмитриев" />
-                    <div class="experts__list-item-content">
-                        Руководитель и вдохно- витель platforma. Методолог общего цикла экспорта.
+            <div class="experts__list owl-carousel">
+                <div class="experts__list-item">
+                    <div class="experts__list-item-photo">
+                        <img src="images/anna_kovalenko.png" alt="Анна Коваленко" />
+                        <div class="experts__list-item-content">
+                            Руководитель и вдохно- витель platforma. Методолог общего цикла экспорта.
+                        </div>
                     </div>
+                    <h4>Анна Коваленко</h4>
                 </div>
-                <h4>Денис Дмитриев</h4>
-            </div>
-            <div class="experts__list-item">
-                <div class="experts__list-item-photo">
-                    <img src="images/evgeniya_ogorodnaya.png" alt="Виктория Григоренко" />
-                    <div class="experts__list-item-content">
-                        Руководитель и вдохно- витель platforma. Методолог общего цикла экспорта.
+                <div class="experts__list-item">
+                    <div class="experts__list-item-photo">
+                        <img src="images/denis_dmitriev.png" alt="Денис Дмитриев" />
+                        <div class="experts__list-item-content">
+                            Руководитель и вдохно- витель platforma. Методолог общего цикла экспорта.
+                        </div>
                     </div>
+                    <h4>Денис Дмитриев</h4>
                 </div>
-                <h4>Евгения Огородная</h4>
-            </div>
-            <div class="experts__list-item">
-                <div class="experts__list-item-photo">
-                    <img src="images/viktoriya_grigorenko.png" alt="Виктория Григоренко" />
-                    <div class="experts__list-item-content">
-                        Руководитель и вдохно- витель platforma. Методолог общего цикла экспорта.
+                <div class="experts__list-item">
+                    <div class="experts__list-item-photo">
+                        <img src="images/evgeniya_ogorodnaya.png" alt="Виктория Григоренко" />
+                        <div class="experts__list-item-content">
+                            Руководитель и вдохно- витель platforma. Методолог общего цикла экспорта.
+                        </div>
                     </div>
+                    <h4>Евгения Огородная</h4>
                 </div>
-                <h4>Виктория Григоренко</h4>
-            </div>
-            <div class="experts__list-item">
-                <div class="experts__list-item-photo">
-                    <img src="images/andrey_nemec.png" alt="Анна Коваленко" />
-                    <div class="experts__list-item-content">
-                        Руководитель и вдохно- витель platforma. Методолог общего цикла экспорта.
+                <div class="experts__list-item">
+                    <div class="experts__list-item-photo">
+                        <img src="images/viktoriya_grigorenko.png" alt="Виктория Григоренко" />
+                        <div class="experts__list-item-content">
+                            Руководитель и вдохно- витель platforma. Методолог общего цикла экспорта.
+                        </div>
                     </div>
+                    <h4>Виктория Григоренко</h4>
                 </div>
-                <h4>Андрей Немец</h4>
-            </div>
-            <div class="experts__list-item">
-                <div class="experts__list-item-photo">
-                    <img src="images/viktoriya_grigorenko.png" alt="Виктория Григоренко" />
-                    <div class="experts__list-item-content">
-                        Руководитель и вдохно- витель platforma. Методолог общего цикла экспорта.
+                <div class="experts__list-item">
+                    <div class="experts__list-item-photo">
+                        <img src="images/andrey_nemec.png" alt="Анна Коваленко" />
+                        <div class="experts__list-item-content">
+                            Руководитель и вдохно- витель platforma. Методолог общего цикла экспорта.
+                        </div>
                     </div>
+                    <h4>Андрей Немец</h4>
                 </div>
-                <h4>Галина Воропаева</h4>
-            </div>
-            <div class="experts__list-item">
-                <div class="experts__list-item-photo">
-                    <img src="images/anna_kovalenko.png" alt="Анна Коваленко" />
-                    <div class="experts__list-item-content">
-                        Руководитель и вдохно- витель platforma. Методолог общего цикла экспорта.
+                <div class="experts__list-item">
+                    <div class="experts__list-item-photo">
+                        <img src="images/viktoriya_grigorenko.png" alt="Виктория Григоренко" />
+                        <div class="experts__list-item-content">
+                            Руководитель и вдохно- витель platforma. Методолог общего цикла экспорта.
+                        </div>
                     </div>
+                    <h4>Галина Воропаева</h4>
                 </div>
-                <h4>Анна Коваленко</h4>
-            </div>
-            <div class="experts__list-item">
-                <div class="experts__list-item-photo">
-                    <img src="images/denis_dmitriev.png" alt="Денис Дмитриев" />
-                    <div class="experts__list-item-content">
-                        Руководитель и вдохно- витель platforma. Методолог общего цикла экспорта.
+                <div class="experts__list-item">
+                    <div class="experts__list-item-photo">
+                        <img src="images/anna_kovalenko.png" alt="Анна Коваленко" />
+                        <div class="experts__list-item-content">
+                            Руководитель и вдохно- витель platforma. Методолог общего цикла экспорта.
+                        </div>
                     </div>
+                    <h4>Анна Коваленко</h4>
                 </div>
-                <h4>Денис Дмитриев</h4>
-            </div>
-            <div class="experts__list-item">
-                <div class="experts__list-item-photo">
-                    <img src="images/evgeniya_ogorodnaya.png" alt="Виктория Григоренко" />
-                    <div class="experts__list-item-content">
-                        Руководитель и вдохно- витель platforma. Методолог общего цикла экспорта.
+                <div class="experts__list-item">
+                    <div class="experts__list-item-photo">
+                        <img src="images/denis_dmitriev.png" alt="Денис Дмитриев" />
+                        <div class="experts__list-item-content">
+                            Руководитель и вдохно- витель platforma. Методолог общего цикла экспорта.
+                        </div>
                     </div>
+                    <h4>Денис Дмитриев</h4>
                 </div>
-                <h4>Евгения Огородная</h4>
-            </div>
-            <div class="experts__list-item">
-                <div class="experts__list-item-photo">
-                    <img src="images/viktoriya_grigorenko.png" alt="Виктория Григоренко" />
-                    <div class="experts__list-item-content">
-                        Руководитель и вдохно- витель platforma. Методолог общего цикла экспорта.
+                <div class="experts__list-item">
+                    <div class="experts__list-item-photo">
+                        <img src="images/evgeniya_ogorodnaya.png" alt="Виктория Григоренко" />
+                        <div class="experts__list-item-content">
+                            Руководитель и вдохно- витель platforma. Методолог общего цикла экспорта.
+                        </div>
                     </div>
+                    <h4>Евгения Огородная</h4>
                 </div>
-                <h4>Виктория Григоренко</h4>
-            </div>
-            <div class="experts__list-item">
-                <div class="experts__list-item-photo">
-                    <img src="images/andrey_nemec.png" alt="Анна Коваленко" />
-                    <div class="experts__list-item-content">
-                        Руководитель и вдохно- витель platforma. Методолог общего цикла экспорта.
+                <div class="experts__list-item">
+                    <div class="experts__list-item-photo">
+                        <img src="images/viktoriya_grigorenko.png" alt="Виктория Григоренко" />
+                        <div class="experts__list-item-content">
+                            Руководитель и вдохно- витель platforma. Методолог общего цикла экспорта.
+                        </div>
                     </div>
+                    <h4>Виктория Григоренко</h4>
                 </div>
-                <h4>Андрей Немец</h4>
-            </div>
-            <div class="experts__list-item">
-                <div class="experts__list-item-photo">
-                    <img src="images/viktoriya_grigorenko.png" alt="Виктория Григоренко" />
-                    <div class="experts__list-item-content">
-                        Руководитель и вдохно- витель platforma. Методолог общего цикла экспорта.
+                <div class="experts__list-item">
+                    <div class="experts__list-item-photo">
+                        <img src="images/andrey_nemec.png" alt="Анна Коваленко" />
+                        <div class="experts__list-item-content">
+                            Руководитель и вдохно- витель platforma. Методолог общего цикла экспорта.
+                        </div>
                     </div>
+                    <h4>Андрей Немец</h4>
                 </div>
-                <h4>Галина Воропаева</h4>
+                <div class="experts__list-item">
+                    <div class="experts__list-item-photo">
+                        <img src="images/viktoriya_grigorenko.png" alt="Виктория Григоренко" />
+                        <div class="experts__list-item-content">
+                            Руководитель и вдохно- витель platforma. Методолог общего цикла экспорта.
+                        </div>
+                    </div>
+                    <h4>Галина Воропаева</h4>
+                </div>
             </div>
         </div>
     </section>
     <section id="projects" class="section-projects hidden-x">
-        <div class="section-title">
-            <h2>Корпоративные проекты</h2>
+        <div class="container">
+            <div class="section-title">
+                <h2>Корпоративные проекты</h2>
+            </div>
+            <div class="section-projects__content">
+                <p>Platforma предлагает компаниям консультативные услуги по вопросам стратегического анализа новых рынков, созданию
+                экспортного/импортного плана, развитию бизнеса, подготовке к торговым выставкам, а также разрабатывает индивидуальные
+                корпоративные программы.</p>
+                <p>Чтобы обсудить возможности для развития вашей компании и спроектировать корпоративную
+                программу, обращайтесь к:</p>
+            </div>
         </div>
-        <div class="section-projects__content">
-            <p>Platforma предлагает компаниям консультативные услуги по вопросам стратегического анализа новых рынков, созданию
-            экспортного/импортного плана, развитию бизнеса, подготовке к торговым выставкам, а также разрабатывает индивидуальные
-            корпоративные программы.</p>
-            <p>Чтобы обсудить возможности для развития вашей компании и спроектировать корпоративную
-            программу, обращайтесь к:</p>
-        </div>
-        <div class="section-projects__contacts">
-            <div class="section-projects__contacts-line"></div>
-            <div class="animatedParent section-projects__contacts-card">
-                <h3 class="animated bounceInUp" data-id='1'>Анна Коваленко</h3>
-                <div class="delay-1000 animated fadeIn" data-id='2'>
-                    <span>Координатор образовательных программ</span>
-                    <span>+38 (067) 572 35 56</span>
-                    <span>platforma.ooo@gmail.com</span>
+        <div class="fullwidth">
+            <div class="section-projects__contacts">
+                <div class="section-projects__contacts-line"></div>
+                <div class="animatedParent section-projects__contacts-card">
+                    <h3 class="animated bounceInUp" data-id='1'>Анна Коваленко</h3>
+                    <div class="delay-1000 animated fadeIn" data-id='2'>
+                        <span>Координатор образовательных программ</span>
+                        <span>+38 (067) 572 35 56</span>
+                        <span>platforma.ooo@gmail.com</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -640,32 +653,34 @@
             </div>
         </div>
     </section> -->
-    <footer class="platform-footer hidden-x">
-        <div class="animatedParent platform-footer-info">
-            <div class="animated bounceInUp platform-footer-info__social">
-                <a href="https://instagram.com/platforma_bs?igshid=1wb1vyu2gan5m" target="_blank"
-                    class="platform-footer-info__social-icon platform-footer-info__social-inst"></a>
-                <a href="https://www.facebook.com/platformabs" target="_blank"
-                    class="platform-footer-info__social-icon platform-footer-info__social-fb"></a>
-                <a href="https://www.facebook.com/platformabs" target="_blank"
-                    class="platform-footer-info__social-icon platform-footer-info__social-ln"></a>
-            </div>
-            <div class="animated bounceInUp platform-footer-info__text">
-                <span>+ 38 (067) 572 35 56</span>
-                <span>info@platforma-bs.com</span>
-            </div>
-        </div>
-        <div id="contacts" class="animatedParent platform-footer-form">
-            <div class="animated bounceInUp platform-footer-form__subscribe-text">
-                Подпишитесь на рассылку - узнавайте новости первыми!
-            </div>
-            <form action="post" class="animated bounceInUp platform-footer-form__subscribe-form subscribe-form">
-                <div class="subscribe-form__input">
-                    <input type="text" placeholder="Ваш email">
+    <footer class="platform-footer hidden-x fullwidth">
+        <div class="container">
+            <div class="animatedParent platform-footer-info">
+                <div class="animated bounceInUp platform-footer-info__social">
+                    <a href="https://instagram.com/platforma_bs?igshid=1wb1vyu2gan5m" target="_blank"
+                        class="platform-footer-info__social-icon platform-footer-info__social-inst"></a>
+                    <a href="https://www.facebook.com/platformabs" target="_blank"
+                        class="platform-footer-info__social-icon platform-footer-info__social-fb"></a>
+                    <a href="https://www.facebook.com/platformabs" target="_blank"
+                        class="platform-footer-info__social-icon platform-footer-info__social-ln"></a>
                 </div>
-                <button type="submit" class="subscribe-form__button">Подписаться</button>
-                <small class="small-red">Неверно введены данные</small>
-            </form>
+                <div class="animated bounceInUp platform-footer-info__text">
+                    <span>+ 38 (067) 572 35 56</span>
+                    <span>info@platforma-bs.com</span>
+                </div>
+            </div>
+            <div id="contacts" class="animatedParent platform-footer-form">
+                <div class="animated bounceInUp platform-footer-form__subscribe-text">
+                    Подпишитесь на рассылку - узнавайте новости первыми!
+                </div>
+                <form action="post" class="animated bounceInUp platform-footer-form__subscribe-form subscribe-form">
+                    <div class="subscribe-form__input">
+                        <input type="text" placeholder="Ваш email">
+                    </div>
+                    <button type="submit" class="subscribe-form__button">Подписаться</button>
+                    <small class="small-red">Неверно введены данные</small>
+                </form>
+            </div>
         </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
