@@ -392,15 +392,11 @@
 	}
 
 	.section-projects__contacts-card {
-		padding: 21px 187px 40px 59px;
+		padding: 40px 187px 40px 59px;
 	}
 
 	.section-projects__contacts-card h3 {
 		font-size: 40px;
-	}
-
-	.section-projects__contacts-card span {
-		line-height: 60px;
 	}
 
 	.section-review {
