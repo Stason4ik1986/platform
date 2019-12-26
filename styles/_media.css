@@ -288,6 +288,7 @@
 
 	.platform-header__timer-wrap {
 		margin-top: 60px;
+		min-height: 180px;
 	}
 
 	.platform-header__date,

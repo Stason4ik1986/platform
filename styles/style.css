@@ -251,6 +251,7 @@
 
 .platform-header__timer-wrap {
     margin-top:calc((100vw - 375px)/(1440 - 375) * (60 - 30) + 30px);
+    min-height:calc((100vw - 375px)/(1440 - 375) * (180 - 150) + 150px);
 }
 
 .platform-header__date,
